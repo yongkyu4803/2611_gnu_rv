@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chem-mvp:whole-paper-hits:0.1",
+  "title": "논문 전체 표현별 결과(whole_paper_hits v0.1) — v1.3 core 결과와 별도",
+  "description": "start/end는 해당 문장 문자열의 Python 유니코드 코드포인트 기준 [start,end). sentence[start:end]==text는 별도 코드로 검사한다. role은 도구의 역할 분류이며 Hyland(2001)의 과정·평가 분류 자체가 아니다.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["document_id", "sentence_id", "text", "start", "end", "role", "attr", "source"],
+    "properties": {
+      "document_id": {"type": "string", "minLength": 1},
+      "sentence_id": {"type": "string", "pattern": "^\\d+(?:\\.\\d+)*-\\d{3,}$"},
+      "text": {"type": "string", "minLength": 1},
+      "start": {"type": "integer", "minimum": 0},
+      "end": {"type": "integer", "minimum": 1},
+      "role": {"enum": ["prior", "result", "interpret", "method", "ref", "uncertain"]},
+      "attr": {"enum": ["선행연구", "현재 연구", "현재 연구(본문 지시)", "불명"]},
+      "source": {"enum": ["local_rules", "api", "annotation_reuse"]},
+      "agent": {"type": "string"},
+      "agent_text": {"type": "string"},
+      "lemma": {"type": "string"},
+      "note": {"type": "string"}
+    }
+  }
+}

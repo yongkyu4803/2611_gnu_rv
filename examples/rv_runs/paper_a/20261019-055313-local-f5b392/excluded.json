@@ -1,0 +1,785 @@
+[
+ {
+  "document_id": "paper_a",
+  "sentence_id": "0-004",
+  "text": "using",
+  "start": 48,
+  "end": 53,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "0-004",
+  "text": "recover",
+  "start": 101,
+  "end": 108,
+  "lemma": "recover",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "0-007",
+  "text": "used",
+  "start": 15,
+  "end": 19,
+  "lemma": "use",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "0-009",
+  "text": "tested",
+  "start": 51,
+  "end": 57,
+  "lemma": "test",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "0-010",
+  "text": "recovering",
+  "start": 137,
+  "end": 147,
+  "lemma": "recover",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "1-001",
+  "text": "expected",
+  "start": 45,
+  "end": 53,
+  "lemma": "expect",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "1-008",
+  "text": "reusing",
+  "start": 58,
+  "end": 65,
+  "lemma": "reuse",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "1-020",
+  "text": "analyzing",
+  "start": 47,
+  "end": 56,
+  "lemma": "analyze",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "1-023",
+  "text": "extract",
+  "start": 83,
+  "end": 90,
+  "lemma": "extract",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.3-005",
+  "text": "used",
+  "start": 58,
+  "end": 62,
+  "lemma": "use",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.3-005",
+  "text": "used",
+  "start": 88,
+  "end": 92,
+  "lemma": "use",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.3-011",
+  "text": "analyze",
+  "start": 105,
+  "end": 112,
+  "lemma": "analyze",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.3-014",
+  "text": "adding",
+  "start": 22,
+  "end": 28,
+  "lemma": "add",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.4.1-001",
+  "text": "using",
+  "start": 87,
+  "end": 92,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.4.2-003",
+  "text": "using",
+  "start": 29,
+  "end": 34,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.4.3-001",
+  "text": "using",
+  "start": 122,
+  "end": 127,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-001",
+  "text": "select",
+  "start": 35,
+  "end": 41,
+  "lemma": "select",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-002",
+  "text": "using",
+  "start": 83,
+  "end": 88,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-002",
+  "text": "applying",
+  "start": 156,
+  "end": 164,
+  "lemma": "apply",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-004",
+  "text": "set",
+  "start": 25,
+  "end": 28,
+  "lemma": "set",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-007",
+  "text": "following",
+  "start": 23,
+  "end": 32,
+  "lemma": "follow",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-007",
+  "text": "using",
+  "start": 66,
+  "end": 71,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.1-008",
+  "text": "used",
+  "start": 97,
+  "end": 101,
+  "lemma": "use",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.2-012",
+  "text": "extracted",
+  "start": 4,
+  "end": 13,
+  "lemma": "extract",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.5.2-013",
+  "text": "dried",
+  "start": 25,
+  "end": 30,
+  "lemma": "dry",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.6-002",
+  "text": "mixing",
+  "start": 27,
+  "end": 33,
+  "lemma": "mix",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.6-003",
+  "text": "adding",
+  "start": 41,
+  "end": 47,
+  "lemma": "add",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.6-004",
+  "text": "mixing",
+  "start": 35,
+  "end": 41,
+  "lemma": "mix",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.6-005",
+  "text": "using",
+  "start": 28,
+  "end": 33,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.7-003",
+  "text": "using",
+  "start": 79,
+  "end": 84,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "2.7-004",
+  "text": "using",
+  "start": 45,
+  "end": 50,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.1-001",
+  "text": "using",
+  "start": 99,
+  "end": 104,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.1-001",
+  "text": "studied",
+  "start": 24,
+  "end": 31,
+  "lemma": "study",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.2-012",
+  "text": "prepared",
+  "start": 25,
+  "end": 33,
+  "lemma": "prepare",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-003",
+  "text": "note",
+  "start": 19,
+  "end": 23,
+  "lemma": "note",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-005",
+  "text": "Evaluating",
+  "start": 0,
+  "end": 10,
+  "lemma": "evaluate",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-005",
+  "text": "determining",
+  "start": 56,
+  "end": 67,
+  "lemma": "determine",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-005",
+  "text": "determining",
+  "start": 117,
+  "end": 128,
+  "lemma": "determine",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-006",
+  "text": "following",
+  "start": 40,
+  "end": 49,
+  "lemma": "follow",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-007",
+  "text": "developed",
+  "start": 189,
+  "end": 198,
+  "lemma": "develop",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-015",
+  "text": "diluted",
+  "start": 54,
+  "end": 61,
+  "lemma": "dilute",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.3-016",
+  "text": "adding",
+  "start": 9,
+  "end": 15,
+  "lemma": "add",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.2.4-002",
+  "text": "mixing",
+  "start": 100,
+  "end": 106,
+  "lemma": "mix",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-002",
+  "text": "performing",
+  "start": 40,
+  "end": 50,
+  "lemma": "perform",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-003",
+  "text": "using",
+  "start": 27,
+  "end": 32,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-003",
+  "text": "evaluate",
+  "start": 73,
+  "end": 81,
+  "lemma": "evaluate",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-003",
+  "text": "extracting",
+  "start": 108,
+  "end": 118,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-004",
+  "text": "performing",
+  "start": 25,
+  "end": 35,
+  "lemma": "perform",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-004",
+  "text": "extracted",
+  "start": 86,
+  "end": 95,
+  "lemma": "extract",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-004",
+  "text": "measured",
+  "start": 96,
+  "end": 104,
+  "lemma": "measure",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-006",
+  "text": "extracted",
+  "start": 51,
+  "end": 60,
+  "lemma": "extract",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-007",
+  "text": "following",
+  "start": 48,
+  "end": 57,
+  "lemma": "follow",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-008",
+  "text": "performing",
+  "start": 13,
+  "end": 23,
+  "lemma": "perform",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-009",
+  "text": "extract",
+  "start": 33,
+  "end": 40,
+  "lemma": "extract",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-010",
+  "text": "extracting",
+  "start": 120,
+  "end": 130,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-012",
+  "text": "extracting",
+  "start": 81,
+  "end": 91,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-014",
+  "text": "compared",
+  "start": 38,
+  "end": 46,
+  "lemma": "compare",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-016",
+  "text": "using",
+  "start": 100,
+  "end": 105,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-018",
+  "text": "mixing",
+  "start": 55,
+  "end": 61,
+  "lemma": "mix",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.1-019",
+  "text": "extracted",
+  "start": 103,
+  "end": 112,
+  "lemma": "extract",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-003",
+  "text": "dissolve",
+  "start": 37,
+  "end": 45,
+  "lemma": "dissolve",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-004",
+  "text": "compared",
+  "start": 78,
+  "end": 86,
+  "lemma": "compare",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-004",
+  "text": "used",
+  "start": 116,
+  "end": 120,
+  "lemma": "use",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-009",
+  "text": "using",
+  "start": 50,
+  "end": 55,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-009",
+  "text": "using",
+  "start": 103,
+  "end": 108,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-012",
+  "text": "carried",
+  "start": 56,
+  "end": 63,
+  "lemma": "carry out",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-016",
+  "text": "extracting",
+  "start": 69,
+  "end": 79,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-021",
+  "text": "extracting",
+  "start": 51,
+  "end": 61,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-025",
+  "text": "extract",
+  "start": 85,
+  "end": 92,
+  "lemma": "extract",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-029",
+  "text": "proposed",
+  "start": 197,
+  "end": 205,
+  "lemma": "propose",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-030",
+  "text": "carried",
+  "start": 159,
+  "end": 166,
+  "lemma": "carry out",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-033",
+  "text": "extracting",
+  "start": 28,
+  "end": 38,
+  "lemma": "extract",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-040",
+  "text": "using",
+  "start": 143,
+  "end": 148,
+  "lemma": "use",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-043",
+  "text": "extract",
+  "start": 213,
+  "end": 220,
+  "lemma": "extract",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-044",
+  "text": "recovering",
+  "start": 92,
+  "end": 102,
+  "lemma": "recover",
+  "reason": "조동사 없는 동명사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-045",
+  "text": "developed",
+  "start": 12,
+  "end": 21,
+  "lemma": "develop",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.2-045",
+  "text": "combine",
+  "start": 141,
+  "end": 148,
+  "lemma": "combine",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.3-003",
+  "text": "used",
+  "start": 25,
+  "end": 29,
+  "lemma": "use",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.3-005",
+  "text": "tested",
+  "start": 187,
+  "end": 193,
+  "lemma": "test",
+  "reason": "전치사적 용법 또는 명사 수식 분사(방법 동사)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.3.3-008",
+  "text": "confirm",
+  "start": 37,
+  "end": 44,
+  "lemma": "confirm",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.4-002",
+  "text": "extracted",
+  "start": 70,
+  "end": 79,
+  "lemma": "extract",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.4-006",
+  "text": "extracted",
+  "start": 173,
+  "end": 182,
+  "lemma": "extract",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.4-008",
+  "text": "develop",
+  "start": 30,
+  "end": 37,
+  "lemma": "develop",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.4-008",
+  "text": "separate",
+  "start": 64,
+  "end": 72,
+  "lemma": "separate",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "3.4-008",
+  "text": "extracted",
+  "start": 86,
+  "end": 95,
+  "lemma": "extract",
+  "reason": "형용사적 분사(amod)"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "4-001",
+  "text": "extract",
+  "start": 23,
+  "end": 30,
+  "lemma": "extract",
+  "reason": "to부정사"
+ },
+ {
+  "document_id": "paper_a",
+  "sentence_id": "4-005",
+  "text": "performing",
+  "start": 21,
+  "end": 31,
+  "lemma": "perform",
+  "reason": "형용사적 분사(amod)"
+ }
+]

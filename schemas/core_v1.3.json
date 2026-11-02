@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chem-mvp:sentence-results:1.3",
+  "title": "화학 MVP v1.3 문장별 일괄 결과",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "document_id",
+      "sentence_id",
+      "has_citation",
+      "citation_numbers",
+      "reporting_verb",
+      "citation_form",
+      "note"
+    ],
+    "properties": {
+      "document_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sentence_id": {
+        "type": "string",
+        "pattern": "^\\d+(?:\\.\\d+)*-\\d{3,}$"
+      },
+      "has_citation": {
+        "type": "boolean"
+      },
+      "citation_numbers": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "uniqueItems": true
+      },
+      "reporting_verb": {
+        "type": "string"
+      },
+      "citation_form": {
+        "type": "string",
+        "enum": [
+          "integral",
+          "non_integral",
+          ""
+        ]
+      },
+      "note": {
+        "type": "string"
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "has_citation": {
+              "const": false
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "citation_numbers": {
+              "maxItems": 0
+            },
+            "citation_form": {
+              "const": ""
+            },
+            "reporting_verb": {
+              "const": ""
+            }
+          }
+        },
+        "else": {
+          "properties": {
+            "citation_numbers": {
+              "minItems": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+}

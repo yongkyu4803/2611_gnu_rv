@@ -1,0 +1,51 @@
+[
+ {
+  "bundle_file": "inputs/paper_a_input.txt",
+  "handoff_file": "paper_a_input_repacked.txt",
+  "bundle_sha256": "9c5be835900932e2fe268efbaa8ba739021250ac60478718eac35370239f9c78",
+  "handoff_sha256": "9ee4055e68764989a2fe61d392f6bb0527bbf41bad9e03e6a3f2910a872165a7",
+  "byte_identical": false
+ },
+ {
+  "bundle_file": "inputs/paper_a_structure.tsv",
+  "handoff_file": "paper_a_structure_repacked.tsv",
+  "bundle_sha256": "dde09f54fbb92d0bfc07384da94f731eba8c67889b4a248dad535e32048f84b9",
+  "handoff_sha256": "dde09f54fbb92d0bfc07384da94f731eba8c67889b4a248dad535e32048f84b9",
+  "byte_identical": true
+ },
+ {
+  "bundle_file": "inputs/paper_b_input.txt",
+  "handoff_file": "paper_b_input_repacked.txt",
+  "bundle_sha256": "3a45b159f4e988a85747b9189d42801bbf394b456d966cec86763b0814e035a9",
+  "handoff_sha256": "d93802cbda289cbfc0359965156bcad57a18fd3d93947fce724a706f97621c6a",
+  "byte_identical": false
+ },
+ {
+  "bundle_file": "inputs/paper_b_structure.tsv",
+  "handoff_file": "paper_b_structure_repacked.tsv",
+  "bundle_sha256": "6a2bdf82816fc464447eeb4bad522198f54b66e16a789ff66daed574a6fa5848",
+  "handoff_sha256": "6a2bdf82816fc464447eeb4bad522198f54b66e16a789ff66daed574a6fa5848",
+  "byte_identical": true
+ },
+ {
+  "bundle_file": "annotations/paper_a_draft_v1.3.csv",
+  "handoff_file": "paper_a_jeongdabpyo_v1_3-claude.csv",
+  "bundle_sha256": "fc53e53b22d18959859248ee4c9339fa5f27e3761616d57a80815e7ddb6fa873",
+  "handoff_sha256": "fc53e53b22d18959859248ee4c9339fa5f27e3761616d57a80815e7ddb6fa873",
+  "byte_identical": true
+ },
+ {
+  "bundle_file": "annotations/paper_b_draft_v1.3.csv",
+  "handoff_file": "paper_b_jeongdabpyo_v1_3-claude.csv",
+  "bundle_sha256": "ec5ec4daafb2f9c7edefae6c5f5ba7ed6bed18bb457632ba6472644067f48fda",
+  "handoff_sha256": "ec5ec4daafb2f9c7edefae6c5f5ba7ed6bed18bb457632ba6472644067f48fda",
+  "byte_identical": true
+ },
+ {
+  "bundle_file": "schemas/core_v1.3.json",
+  "handoff_file": "bunseogculryeog_JSONSchema_v1_3-claude.json",
+  "bundle_sha256": "7587ad54f4adaca7ada91376ded3ef0e84380a73ed0f9f23e6ea7352319ba35a",
+  "handoff_sha256": "7587ad54f4adaca7ada91376ded3ef0e84380a73ed0f9f23e6ea7352319ba35a",
+  "byte_identical": true
+ }
+]

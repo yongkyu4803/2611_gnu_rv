@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.env*
+# 실행 결과와 배포용 묶음(실행마다 새로 생김)
+/rv_runs/
+/*.zip
+/viewer_local_*.html
+/viewer_api_*.html
+/검토메모.csv

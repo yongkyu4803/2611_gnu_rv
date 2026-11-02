@@ -1,0 +1,2064 @@
+[
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "0-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-001",
+  "has_citation": true,
+  "citation_numbers": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-003",
+  "has_citation": true,
+  "citation_numbers": [
+   5
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-004",
+  "has_citation": true,
+  "citation_numbers": [
+   6
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-005",
+  "has_citation": true,
+  "citation_numbers": [
+   7,
+   8,
+   9
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-007",
+  "has_citation": true,
+  "citation_numbers": [
+   10
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-009",
+  "has_citation": true,
+  "citation_numbers": [
+   11
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-010",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-011",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-012",
+  "has_citation": true,
+  "citation_numbers": [
+   11,
+   12
+  ],
+  "reporting_verb": "demonstrated",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-013",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-014",
+  "has_citation": true,
+  "citation_numbers": [
+   13,
+   14,
+   15
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-015",
+  "has_citation": true,
+  "citation_numbers": [
+   16,
+   17
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-016",
+  "has_citation": true,
+  "citation_numbers": [
+   17,
+   18
+  ],
+  "reporting_verb": "can be observed, showing",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-017",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-018",
+  "has_citation": true,
+  "citation_numbers": [
+   16
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-019",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-020",
+  "has_citation": true,
+  "citation_numbers": [
+   19
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-021",
+  "has_citation": true,
+  "citation_numbers": [
+   20
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-022",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-023",
+  "has_citation": true,
+  "citation_numbers": [
+   21
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-024",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-025",
+  "has_citation": true,
+  "citation_numbers": [
+   22,
+   23
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-026",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-027",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-028",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-029",
+  "has_citation": true,
+  "citation_numbers": [
+   23,
+   24
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-030",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-031",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-032",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-033",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-034",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-035",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-036",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-037",
+  "has_citation": true,
+  "citation_numbers": [
+   18,
+   33
+  ],
+  "reporting_verb": "is selected",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-038",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-039",
+  "has_citation": true,
+  "citation_numbers": [
+   34,
+   35
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-040",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-041",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-042",
+  "has_citation": true,
+  "citation_numbers": [
+   18
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "1-043",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-006",
+  "has_citation": true,
+  "citation_numbers": [
+   36,
+   37
+  ],
+  "reporting_verb": "was performed",
+  "citation_form": "",
+  "note": "혼합 인용 후보: 이름이 붙은 인용과 번호만 있는 인용이 함께 있음(보류); 로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-010",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-011",
+  "has_citation": true,
+  "citation_numbers": [
+   32,
+   38,
+   39,
+   40
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-012",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-013",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-014",
+  "has_citation": true,
+  "citation_numbers": [
+   41
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.1-015",
+  "has_citation": true,
+  "citation_numbers": [
+   42
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-007",
+  "has_citation": true,
+  "citation_numbers": [
+   43
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-008",
+  "has_citation": true,
+  "citation_numbers": [
+   23
+  ],
+  "reporting_verb": "confirms",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.2-010",
+  "has_citation": true,
+  "citation_numbers": [
+   44
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-010",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.3-011",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-003",
+  "has_citation": true,
+  "citation_numbers": [
+   17,
+   18
+  ],
+  "reporting_verb": "being successfully reported",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-004",
+  "has_citation": true,
+  "citation_numbers": [
+   18,
+   28
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-008",
+  "has_citation": true,
+  "citation_numbers": [
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-010",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-011",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-012",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-013",
+  "has_citation": true,
+  "citation_numbers": [
+   50,
+   51
+  ],
+  "reporting_verb": "has shown",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-014",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-015",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-016",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-017",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-018",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-019",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-020",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-021",
+  "has_citation": true,
+  "citation_numbers": [
+   16
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-022",
+  "has_citation": true,
+  "citation_numbers": [
+   52
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-023",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-024",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.4-025",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-004",
+  "has_citation": true,
+  "citation_numbers": [
+   53
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-006",
+  "has_citation": true,
+  "citation_numbers": [
+   54
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-007",
+  "has_citation": true,
+  "citation_numbers": [
+   55
+  ],
+  "reporting_verb": "can be observed",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-010",
+  "has_citation": true,
+  "citation_numbers": [
+   56
+  ],
+  "reporting_verb": "can only be explained",
+  "citation_form": "integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-011",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "2.5-012",
+  "has_citation": true,
+  "citation_numbers": [
+   57
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.1-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.1-001",
+  "has_citation": true,
+  "citation_numbers": [
+   36,
+   58
+  ],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": "혼합 인용 후보: 이름이 붙은 인용과 번호만 있는 인용이 함께 있음(보류); 로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.1-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.1-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.2-006",
+  "has_citation": true,
+  "citation_numbers": [
+   59
+  ],
+  "reporting_verb": "is used",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.3-001",
+  "has_citation": true,
+  "citation_numbers": [
+   60
+  ],
+  "reporting_verb": "was determined",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.3-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.2.3-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.3-006",
+  "has_citation": true,
+  "citation_numbers": [
+   25
+  ],
+  "reporting_verb": "was prepared",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.4-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.5-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6-002",
+  "has_citation": true,
+  "citation_numbers": [
+   16,
+   17,
+   25
+  ],
+  "reporting_verb": "were performed",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6-003",
+  "has_citation": true,
+  "citation_numbers": [
+   18,
+   25
+  ],
+  "reporting_verb": "were adapted",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.1-001",
+  "has_citation": true,
+  "citation_numbers": [
+   25
+  ],
+  "reporting_verb": "were adapted, was combined",
+  "citation_form": "integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.1-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.1-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.2-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-002",
+  "has_citation": true,
+  "citation_numbers": [
+   18
+  ],
+  "reporting_verb": "were adapted",
+  "citation_form": "integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.6.3-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.7-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.7-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-005",
+  "has_citation": true,
+  "citation_numbers": [
+   18
+  ],
+  "reporting_verb": "",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-007",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-008",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-009",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-010",
+  "has_citation": true,
+  "citation_numbers": [
+   17
+  ],
+  "reporting_verb": "using",
+  "citation_form": "integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-011",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.8-012",
+  "has_citation": true,
+  "citation_numbers": [
+   61
+  ],
+  "reporting_verb": "were determined",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.9-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.10-006",
+  "has_citation": true,
+  "citation_numbers": [
+   54
+  ],
+  "reporting_verb": "was set",
+  "citation_form": "non_integral",
+  "note": "로컬 규칙 결과(판정 완료 아님)"
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.11-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "3.11-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-001",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-002",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-003",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-004",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-005",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ },
+ {
+  "document_id": "paper_b",
+  "sentence_id": "4-006",
+  "has_citation": false,
+  "citation_numbers": [],
+  "reporting_verb": "",
+  "citation_form": "",
+  "note": ""
+ }
+]

@@ -1,0 +1,250 @@
+﻿document_id,sentence_id,sentence,has_citation,citation_numbers,reporting_verb,citation_form,note,reviewer,status
+paper_a,0-001,Brewer’s Spent Grain (BSG) is a residue produced in large quantities of breweries.,FALSE,,,,,,
+paper_a,0-002,"BSGs have a high nutritional value and are a source of bioactive compounds, suggesting that this residue can be reused to produce high-value products with industrial applications.",FALSE,,,,,,
+paper_a,0-003,"Among the bioactive compounds, the BSGs have high concentrations of phenolic compounds that are in high demand in the cosmetic and food industry.",FALSE,,,,,,
+paper_a,0-004,"In this work, an ultrasound-assisted extraction using deep eutectic solvents (DESs) was evaluated to recover phenolic compounds from BSG.",FALSE,,,,,,
+paper_a,0-005,"A screening of four DESs and their mixtures with 25% water (v/v) identified DES choline chloride and oxalic acid (ChCl:OA) and DES choline chloride and lactic acid (ChCl:LA) as the most effective solvents, achieving phenolic compound yields of 0.201 and 0.172 mg GAE/L, respectively, during the initial screening.",FALSE,,,,,,
+paper_a,0-006,"To further enhance the extraction efficiency, a two-step serial extraction process was employed.",FALSE,,,,,,
+paper_a,0-007,"The first step used hexane or ethanol to remove oils and sugars, which reduced the impurities and increased the selectivity of DES in the second step.",FALSE,,,,,,
+paper_a,0-008,"The highest phenolic compound yields were obtained with ethanol-ChCl:OA and hexane-ChCl:OA systems, achieving 0.513 and 0.516 mg GAE/L, respectively, at 30 °C.",FALSE,,,,,,
+paper_a,0-009,"Notably, ChCl:OA, the most viscous DES among those tested, demonstrated the highest extraction efficiency, suggesting that its chemical composition and interactions with the BSG matrix may have compensated for its higher viscosity.",FALSE,,,,,,
+paper_a,0-010,Serial ultrasound-assisted extraction effectively removed oils and sugars from the BSG sample and increased the efficiency of the DES in recovering phenolic compounds.,FALSE,,,,,,
+paper_a,1-001,"The beer market is growing steadily, with an expected production of 189.3 billion L by 2027.",FALSE,,,,,,
+paper_a,1-002,"China, the United States, and Brazil are the largest beer producers.[1]",TRUE,1,,non_integral,,Claude,pending
+paper_a,1-003,"Beer processing generates a large amount of Brewer’s Spent Grain (BSG), which is considered an industrial residue.",FALSE,,,,,,
+paper_a,1-004,"It is estimated that for every 100 L of beer, 20 kg of BSG is produced.[2]",TRUE,2,is estimated,non_integral,"비인칭 수동태 + 인용. Hyland 예문 (12) ""is considered … (Hughes, 1958)""과 같은 유형",Claude,pending
+paper_a,1-005,"In 2022 alone, global beer production totaled 1.89 billion hectoliters, generating more than 3.7 million tons of BSG.[3]",TRUE,3,,non_integral,,Claude,pending
+paper_a,1-006,"The environmentally correct destination for BSG is its disposal in a landfill or composting, where it will decompose, producing other byproducts, such as methane and leachate.",FALSE,,,,,,
+paper_a,1-007,"BSG can also be used as supplemental feed for livestock since it contains sugars, fatty acids, protein, and other minor compounds.",FALSE,,,,,,
+paper_a,1-008,"BSG is a material rich in bioactive compounds; therefore, reusing this residue as a raw material in other industrial processes can be an interesting alternative to reducing the environmental impact caused by its disposal while obtaining high-value bioactive compounds.",FALSE,,,,,,
+paper_a,1-009,"BSG contains 57 types of flavonoids, 26 phenols and 21 other bioactive compounds, making it a good source of raw material for the extraction of phenolics and other bioactive compounds that are applied in the food and pharmaceutical industries.[4]",TRUE,4,,non_integral,,Claude,pending
+paper_a,1-010,The most abundant bioactive compounds in BSG are hydroxycinnamic acids (HCAs).[5],TRUE,5,,non_integral,,Claude,pending
+paper_a,1-011,"These HCAs in BSG have antioxidant activity, which could allow for their application in pharmacology and the food industry.",FALSE,,,,,,
+paper_a,1-012,"Ferulic acid (FA), caffeic acid (CA), and p-coumaric acid (p- CA) are the types of HCAs that have been reported most frequently in the extraction of phenolic compounds from BSG.",FALSE,,,,,,
+paper_a,1-013,"They are known for their antioxidant, anti-inflammatory, and anticarcinogenic properties.[6]",TRUE,6,,non_integral,"경계: ""are known"" — 주어가 화합물이고 일반 지식 서술에 가까움",Claude,pending
+paper_a,1-014,"Various methods have been used for the extraction of other compounds from BSG, such as hydrothermal autohydrolysis for the extraction of oligosaccharides,[7] dilute acid hydrolysis for the extraction of hemicellulose sugars, [8],[9] enzymatic hydrolysis for the extraction of hemicellulose and lignin [9],[10] ultrasound-assisted extraction to obtain extracts rich in arabinoxylan,[11] and microwave-assisted extraction with DES to obtain phenolic acids. [12],[13]",TRUE,7;8;9;10;11;12;13,have been used,non_integral,"타 연구의 절차 보고. Hyland 예문 (6) ""using … [42]""과 같은 유형",Claude,pending
+paper_a,1-015,Several studies point to deep eutectic solvents (DES) as an alternative to replace conventional organic solvents for a more sustainable extraction process.[14],TRUE,14,point to,non_integral,,Claude,pending
+paper_a,1-016,"DESs are green solvents consisting of mixtures of two or more components, a hydrogen bond acceptor (HBA), and one or more hydrogen bond donors (HBD).[15]",TRUE,15,,non_integral,,Claude,pending
+paper_a,1-017,"DES is an attractive alternative due to its low or nonexistent toxicity, biodegradability, and recyclability.",FALSE,,,,,,
+paper_a,1-018,"Some recent studies have already demonstrated that DES can be a good alternative in the recovery of bioactive compounds from brewery spent grains. [16],[17]",TRUE,16;17,have already demonstrated,non_integral,,Claude,pending
+paper_a,1-019,The DES is called deep because it forms an eutectic with a melting point much lower than that of constituents.[18],TRUE,18,,non_integral,,Claude,pending
+paper_a,1-020,Martins et al.[19] explained the importance of analyzing the ideality of the mixture to avoid overgeneralization and presented a more rigorous definition of DES.,TRUE,19,"explained, presented",integral,한 문장에 동사 2개,Claude,pending
+paper_a,1-021,"According to Martins et al.,[19] DESs are not pure compounds but mixtures with hydrogen bonds that have differences between the ideal eutectic point (TE, ideal) and the real eutectic point (TE).",TRUE,19,,integral,"경계: ""According to"" — 보고 표지이나 동사가 아님",Claude,pending
+paper_a,1-022,"The first DES presented only the differences between the melting points of the pure components and the mixture; however, this concept was insufficient to distinguish one DES from another eutectic combination.",FALSE,,,,,,
+paper_a,1-023,"In this work, four choline chloride-based DESs were produced and their capacity to extract phenolic compounds was evaluated from BSG.",FALSE,,,,,,
+paper_a,1-024,"Furthermore, a two-stage ultrasound-assisted process was developed to improve the extraction of phenolics, while avoiding the extraction of sugars and fatty acid esters.",FALSE,,,,,,
+paper_a,2.1-001,"The dried BSG was donated by a local brewery (Fortaleza, Brazil).",FALSE,,,,,,
+paper_a,2.1-002,The BSG was grounded in a knife mill and sieved in an electromagnetic sieve machine.,FALSE,,,,,,
+paper_a,2.1-003,"BSG-ground particles with average diameters of 0.250, 0.533, and 1.000 mm were obtained and stored in transparent polyethylene bags.",FALSE,,,,,,
+paper_a,2.1-004,"Only particles with an average diameter of 0.250 mm were used in the extraction experiments due to their higher homogeneity, as indicated by scanning electron microscopy (SEM) analysis.",FALSE,,,,,,
+paper_a,2.2-001,"Distilled water purified by a Millipore-Q system, ethanol (Synth, Brazil), hexane (Synth, Brazil), Folin-Ciocalteu reagent, sodium carbonate (99.5–100.5%), choline chloride (≥98%), gallic acid (≥99.0), and glycerol (≥99.5) were purchased from Sigma-Aldrich.",FALSE,,,,,,
+paper_a,2.2-002,"Lactic acid (85%), citric acid (P.A), and oxalic acid (P.A) were purchased from Dinâmica Qumica Contemporânea (Indaiatuba, Brazil).",FALSE,,,,,,
+paper_a,2.3-001,Four DESs were prepared.,FALSE,,,,,,
+paper_a,2.3-002,"Table S1 presents the details of each DES, their components, molar ratio, temperature, and preparation time.",FALSE,,,,,,
+paper_a,2.3-003,"The hydrogen bond acceptor (HBA) for all DESs was choline chloride, while the hydrogen bond donors (HBD) varied between three carboxylic acids and polyalcohol.",FALSE,,,,,,
+paper_a,2.3-004,"All DESs were prepared in a molar ratio of 1:2, except for DES ChCl:OA, which remained liquid at room temperature only in a molar ratio of 1:1.[27] , [28]",TRUE,27;28,,non_integral,,Claude,pending
+paper_a,2.3-005,Table S2 presents the molar mass and mass of the reagents used to produce the four DESs used in this work.,FALSE,,,,,,
+paper_a,2.3-006,The table also presents the final moisture content of the DES.,FALSE,,,,,,
+paper_a,2.3-007,"ChCl:LA, ChCl:OA, and ChCl:Gly were prepared by the stirring and heating method proposed by Van Dai et al.[20]",TRUE,20,proposed,integral,방법 절의 외부 연구 귀속,Claude,pending
+paper_a,2.3-008,"In this method, HBA and HBD are mixed and heated in a water bath at 60 °C under continuous stirring until a transparent, colorless liquid is formed.",FALSE,,,,,,
+paper_a,2.3-009,ChCl:CA was prepared by the vacuum evaporation method proposed by Van Dai et al.[20],TRUE,20,proposed,integral,,Claude,pending
+paper_a,2.3-010,Aqueous mixtures of DESs were also prepared.,FALSE,,,,,,
+paper_a,2.3-011,"For the aqueous solutions of DES, 25% Milli-Q water (v/v) was added to 100 mL of ChCl:LA and ChCl:Gly to analyze the effect of water addition on extraction potential.",FALSE,,,,,,
+paper_a,2.3-012,"Aqueous solutions were evaluated because some studies reported that water reduces the viscosity of DES, contributing to a higher mass transfer efficacy and a higher extraction potential. [21],[22]",TRUE,21;22,reported,non_integral,,Claude,pending
+paper_a,2.3-013,No water was added to ChCl:CA since this DES was already prepared with water and had the highest moisture content.,FALSE,,,,,,
+paper_a,2.3-014,"ChCl:OA solidified by adding water, so it was not evaluated in the extractions.",FALSE,,,,,,
+paper_a,2.3-015,All DESs were stored in hermetically sealed glass vials until analysis.,FALSE,,,,,,
+paper_a,2.3-016,These four DESs were chosen based on previous studies that highlighted their application in the extraction of phenolic compounds from agro-industrial residues and other lignocellulosic materials. [23]−[24] [25],TRUE,23;24;25,highlighted,non_integral,,Claude,pending
+paper_a,2.4.1-001,"Density (ρ) and viscosity (η) were measured in the temperature range from 20 to 70 °C, using a digital oscillation viscosimeter (Anton Paar SVM 3000 U-Tube).",FALSE,,,,,,
+paper_a,2.4.1-002,Both measurements were performed simultaneously and duplicated by the equipment itself.,FALSE,,,,,,
+paper_a,2.4.1-003,"The viscosimeter is accurate for up to ±0.005 °C for temperature, ±0.0005 g cm–3 for density, and ±0.35% for apparent viscosity.",FALSE,,,,,,
+paper_a,2.4.2-001,The water content in each DES was estimated by Karl Fisher (Metrohm 870 KF Titrino plus) in a 3:1 chloroform/methanol solution (v/v).,FALSE,,,,,,
+paper_a,2.4.2-002,The water content values reported are the averages of at least three measurements.,FALSE,,,,,,
+paper_a,2.4.2-003,Surface tension was measured using the Du Nouey ring method with a Kruess EasyDine K-20 tensiometer controlled by a thermostatic bath (Julabo model F25-ED) and a Pt-100 temperature sensor.,FALSE,,,,,,
+paper_a,2.4.2-004,The analyses were performed in triplicate over a temperature range of 30–70 °C.,FALSE,,,,,,
+paper_a,2.4.2-005,The instrument was calibrated with water and toluene at 20 °C.,FALSE,,,,,,
+paper_a,2.4.2-006,The equipment uncertainties are 0.01 mN/m for surface tension and 0.1 °C for temperature.,FALSE,,,,,,
+paper_a,2.4.3-001,The chemical characterization of DES and its constituents was performed by Fourier transform infrared spectrometry (FTIR) using an Agilent Technologies Cary 630 spectrometer.,FALSE,,,,,,
+paper_a,2.4.3-002,Transmission spectra in a range of 650–4000 cm–1 were acquired with a spectral resolution of 1 cm–1.,FALSE,,,,,,
+paper_a,2.4.3-003,The analysis was carried out to identify the chemical composition of the mixture through its functional groups.,FALSE,,,,,,
+paper_a,2.5.1-001,The first assay was carried out to select the best two DESs for the extraction of phenolics from BSG.,FALSE,,,,,,
+paper_a,2.5.1-002,"The extraction process was carried out on a probe ultrasound (Unique model DES500) using a titanium macro tip of 13 mm diameter and frequency of 20 kHz and applying an ultrasonic power density of 8,300 W/L.",FALSE,,,,,,
+paper_a,2.5.1-003,"The mass of the sample-to-solvent ratio was fixed at 1:10 (w/v), so 6 g of BSG was mixed with 60 mL of DES in a 100 mL jacketed Becker.",FALSE,,,,,,
+paper_a,2.5.1-004,A circulating water bath set at 30 °C was coupled to the jacketed Becker to ensure a constant temperature during the extraction.,FALSE,,,,,,
+paper_a,2.5.1-005,The extraction was carried out for 10 min.,FALSE,,,,,,
+paper_a,2.5.1-006,"After extraction, the samples were centrifuged at 10,000 rpm for 15 min at 25 °C in a refrigerated centrifuge (Sigma model 2–16KL).",FALSE,,,,,,
+paper_a,2.5.1-007,A reference experiment following the same procedure was performed using ethanol as the solvent.,FALSE,,,,,,
+paper_a,2.5.1-008,This reference experiment was carried out for comparison since ethanol is the main green solvent used in the extraction of phenolic compounds.,FALSE,,,,,,
+paper_a,2.5.2-001,"The assays for the selection of the two best DESs for phenolic extraction pointed out that a reasonable amount of sugars, fatty acids, and fatty acid esters were extracted along with the phenolic compounds.",FALSE,,,,,,
+paper_a,2.5.2-002,"Therefore, a strategy for the cleanup of the samples was developed to improve the quality of the phenolic extracts.",FALSE,,,,,,
+paper_a,2.5.2-003,"Furthermore, chemical characterization of the extracts showed that the high ultrasonic power density imposed by the probe ultrasound probably caused the degrading of part of the phenolic compounds.",FALSE,,,,,,
+paper_a,2.5.2-004,A two-stage process was implemented to improve the quality of the phenolic extract.,FALSE,,,,,,
+paper_a,2.5.2-005,"The first stage of the process referred to a cleanup stage, where ethanol and hexane were chosen as cleanup solvents to remove most of the sugars, fatty acids, and fatty acid esters from BSG.",FALSE,,,,,,
+paper_a,2.5.2-006,"ChCl:LA and ChCl:OA were employed as solvents for the second stage, where most of the phenolic compounds would be extracted.",FALSE,,,,,,
+paper_a,2.5.2-007,The selection of these DESs was informed by preliminary screening experiments described in Section 2.5.1.,FALSE,,,,,,
+paper_a,2.5.2-008,"Both stages were carried out in an ultrasonic bath to deliver a lower ultrasonic power density, avoiding the degradation of phenolic compounds.",FALSE,,,,,,
+paper_a,2.5.2-009,"In the first stage, a solid/solvent ratio of 1:10 (w/v) was used, and 6 g of BSG was mixed with 60 mL of ethanol or hexane.",FALSE,,,,,,
+paper_a,2.5.2-010,The cleanup was carried out in an ultrasonic bath at 30 °C for 30 min.,FALSE,,,,,,
+paper_a,2.5.2-011,The operation was carried out at an ultrasonic power density of 55 W/L.,FALSE,,,,,,
+paper_a,2.5.2-012,"The extracted liquid was removed, and the remaining solids were dried in a circulating oven at 60 °C for 24 h.",FALSE,,,,,,
+paper_a,2.5.2-013,"In the second stage, the dried solid phase from the first stage was mixed with 60 mL of ChCl:LA or ChCl:OA and subjected to sonication.",FALSE,,,,,,
+paper_a,2.5.2-014,"The extraction was performed in triplicate at 30, 40, and 50 °C.",FALSE,,,,,,
+paper_a,2.5.2-015,"The total extraction time was 30 min, with 2 mL of aliquots taken after 5, 10, 20, and 30 min.",FALSE,,,,,,
+paper_a,2.5.2-016,The operation was carried out at an ultrasonic power density of 55 W/L.,FALSE,,,,,,
+paper_a,2.6-001,"Total phenolic content (TPC), expressed in milligrams of gallic acid equivalent per liter of BSG extract (mg GAE L–1), was determined according to the Folin–Ciocalteu method with the modifications proposed by Almeida et al.[26]",TRUE,26,proposed,integral,,Claude,pending
+paper_a,2.6-002,"The procedure consisted of mixing 0.100 mL of sample with 0.200 mL of Folin-Ciocalteu reagent (20%, v:v) and 2.000 mL of distilled water.",FALSE,,,,,,
+paper_a,2.6-003,"After 3 min, the reaction was stopped by adding 1.000 mL of Na2CO3 (20% w/v).",FALSE,,,,,,
+paper_a,2.6-004,A reference sample was produced by mixing 0.100 mL of distilled water with the sample.,FALSE,,,,,,
+paper_a,2.6-005,The absorbance was measured using a UV–vis spectrophotometer (Thermos model Evolution 200) at a wavelength of 765 nm.,FALSE,,,,,,
+paper_a,2.7-001,All experiments and measurements were made in triplicate.,FALSE,,,,,,
+paper_a,2.7-002,Standard deviations were calculated based on raw data.,FALSE,,,,,,
+paper_a,2.7-003,"For statistical data analysis, one-way variance analysis (ANOVA) was performed using Origin software (Origin Lab, 2023 Corporation, USA).",FALSE,,,,,,
+paper_a,2.7-004,The mean values of each factor were compared using Tukey’s test at a probability level of 95%.,FALSE,,,,,,
+paper_a,3.1-001,The surface morphology of the BSG after physical treatments (milling and sieving) was evaluated by using SEM.,FALSE,,,,,,
+paper_a,3.1-002,Figure 1 shows the surface of the BSG particles with an average diameter of 0.250 mm at different augmentations.,FALSE,,,,,,
+paper_a,3.1-003,"A heterogeneous distribution of grains was observed, with some broken fibrils of different sizes and thicknesses, possibly originating from grain husks, which generally have a more fibrous character.",FALSE,,,,,,
+paper_a,3.1-004,Some gaps could be observed in the form of pores and rough surfaces with laminar and granular particles.,FALSE,,,,,,
+paper_a,3.2.1-001,The density of the four studied DES was determined as a function of temperature.,FALSE,,,,,,
+paper_a,3.2.1-002,Figure 2 shows the effect of the increase in the temperature on the decrease in the solvent density.,FALSE,,,,,,
+paper_a,3.2.1-003,The complete data are listed in Table S3.,FALSE,,,,,,
+paper_a,3.2.1-004,"ChCl:CA exhibited the highest density index, with a maximum of 1.30 g/cm3 at 20 °C and a minimum of 1.27 g/cm3 at 70 °C.",FALSE,,,,,,
+paper_a,3.2.1-005,"ChCl:OA also exhibited high density, with a maximum of 1.24 g/cm3 at 20 °C and a minimum of 1.21 g/cm3 at 70 °C.",FALSE,,,,,,
+paper_a,3.2.1-006,"This high density directly affects the performance of the solvent in extraction processes, as it hinders diffusivity and mass transfer.[23]",TRUE,23,,non_integral,,Claude,pending
+paper_a,3.2.1-007,Another study found similar density values for ChCl:OA.[24],TRUE,24,found,non_integral,,Claude,pending
+paper_a,3.2.1-008,"ChCl:Gly and ChCl:LA showed the lowest density values, with a maximum value of 1.19 and 1.17 g/cm3 at 20 °C, respectively, and a minimum value of 1.16 and 1.14 g/cm3 at 70 °C.",FALSE,,,,,,
+paper_a,3.2.1-009,"Hence, the density curve can be arranged in the following order: ChCl:LA < ChCl:Gly < ChCl:OA < ChCl:CA, where the last value is the DES with the highest density.",FALSE,,,,,,
+paper_a,3.2.1-010,"Table 1 presents the parameters of the linear equations (d = a · T + b) correlating temperature with density, obtained by least-squares analysis.",FALSE,,,,,,
+paper_a,3.2.1-011,The relationship between density and temperature was extremely linear with an R2 value between 0.998 and 1.000 for all DES examined.,FALSE,,,,,,
+paper_a,3.2.2-001,"Viscosity is an important property for DESs, as it reflects the flow resistance of the solvent.",FALSE,,,,,,
+paper_a,3.2.2-002,Figure 3 and Table S4 show the viscosity of the four DESs synthesized in this work.,FALSE,,,,,,
+paper_a,3.2.2-003,"As the temperature increased, the viscosity decreased due to the gradual weakening of the hydrogen bonds during the heating process.",FALSE,,,,,,
+paper_a,3.2.2-004,ChCl:OA and ChCl:Gly presented higher viscosity values.,FALSE,,,,,,
+paper_a,3.2.2-005,"At 20 and 30 °C, the viscosity of ChCl:OA was higher than that of ChCl:Gly.",FALSE,,,,,,
+paper_a,3.2.2-006,"Above 40 °C, ChCl:Gly became more viscous than ChCl:OA.",FALSE,,,,,,
+paper_a,3.2.2-007,DES ChCl:CA and ChCl:LA were less viscous and had similar viscosities.,FALSE,,,,,,
+paper_a,3.2.2-008,"ChCl:CA remained more viscous than ChCl:LA at all temperatures, with an average difference of 0.7 mPa s from 30 to 70 °C.",FALSE,,,,,,
+paper_a,3.2.2-009,Equally dense substances can exhibit significant variations in the viscosity.,FALSE,,,,,,
+paper_a,3.2.2-010,"This was observed in ChCl:CA, which was the solvent with the highest density (Figure 2) and the second lowest viscosity (Figure 3).",FALSE,,,,,,
+paper_a,3.2.2-011,"As mentioned above, intermolecular forces strongly influence viscosity.",FALSE,,,,,,
+paper_a,3.2.2-012,"ChCl:CA was the only DES prepared with water, which may have weakened hydrogen bonds because the addition of water affects the intra- and intermolecular bonds that are behind the supramolecular network of DES.[29]",TRUE,29,,non_integral,,Claude,pending
+paper_a,3.2.2-013,"The viscosity trend can then be arranged in the following order: ChCl:LA < ChCl:CA < ChCl:Gly < ChCl:OA, the latter being the DES with the highest viscosity.",FALSE,,,,,,
+paper_a,3.2.2-014,The dynamic viscosity results were further adjusted by the Arrhenius equation (eq 1).,FALSE,,,,,,
+paper_a,3.2.2-015,Table 2 presents the parameters for the Arrhenius equation determined from the experimental data and the root-mean-square deviations (RMSD).,FALSE,,,,,,
+paper_a,3.2.2-016,"Where η is the dynamic viscosity (mPa·s), η ∞ is the infinite dynamic viscosity (mPa·s), E a is the activation energy (kJ·mol–1), R is the gas constant (kJ·mol–1·K–1), and T is the temperature (K).",FALSE,,,,,,
+paper_a,3.2.3-001,Water absorption is inevitable for some DESs due to their hygroscopic nature.[24],TRUE,24,,non_integral,,Claude,pending
+paper_a,3.2.3-002,"Synthesized DES, ChCl:OA, ChCl:LA, and ChCl:Gly contained between 2.75 and 8.65% moisture (Table 3).",FALSE,,,,,,
+paper_a,3.2.3-003,"It is important to note that ChCl:CA was the only solvent made with water, which underwent a long rotary evaporation process and had a final moisture content of 8%.",FALSE,,,,,,
+paper_a,3.2.3-004,"While not technically an impurity, the presence of water in DES must be carefully assessed, as it can affect the physicochemical properties of solvents, including density, viscosity, melting point, and surface tension.",FALSE,,,,,,
+paper_a,3.2.3-005,"Evaluating the surface tension of a fluid is crucial in determining its appropriateness for mass transfer processes, determining the energy needed to expand the surface area of the liquid and interpreting the strength of the intermolecular force. [30],[31]",TRUE,30;31,,non_integral,,Claude,pending
+paper_a,3.2.3-006,"The surface tension tendency showed the following order: ChCl:LA < ChCl:CA < ChCl:Gly < ChCl:OA, the latter being the DES with the highest surface tension.",FALSE,,,,,,
+paper_a,3.2.3-007,"Despite the limited data available in the literature on the surface tension of DES, Chen et al.[32] reported the surface tension of 50 DESs, two of which have compositions similar to those developed here.",TRUE,32,reported,integral,통합 인용 시험 문장,Claude,pending
+paper_a,3.2.3-008,The results obtained herein and by Chen et al.[32] were compared in Table 4.,TRUE,32,,integral,"경계: ""obtained … by Chen et al."" — 결과는 귀속되나 주 동사는 필자의 비교 행위(were compared)",Claude,pending
+paper_a,3.2.3-009,"The results obtained for ChCl:LA showed a low variance, while those for ChCl:Gly showed considerable differences, probably because of the amount of water in the mixture.",FALSE,,,,,,
+paper_a,3.2.3-010,Literature data were not found for DES ChCl:CA and ChCl:OA.,FALSE,,,,,,
+paper_a,3.2.3-011,Other studies showed results similar to those of Chen et al.[32] for DES diluted in water.,TRUE,32,,integral,"경계: ""Other studies showed""의 출처에 인용 번호가 없음. 인용 [32]는 비교 대상인 Chen. Hyland는 특정 저자에 귀속되지 않는 일반적 언급을 제외함",Claude,pending
+paper_a,3.2.3-012,"For example, Aravena et al.[33] reported values of γ = 64.9 mN/m at 40 °C, and Chanioti and Tzia[34] with values of γ = 56.12 mN/m at 40 °C with a diluted DES ChCl:Gly in 20% water (v/v).",TRUE,33;34,reported,integral,두 연구를 한 동사로 보고,Claude,pending
+paper_a,3.2.3-013,Chen et al.[32] did not cite the percentage of moisture content in their mixtures.,TRUE,32,did not cite,integral,부정형 비판. Hyland가 하드 분야에서 드물다고 한 유형,Claude,pending
+paper_a,3.2.3-014,The water in the medium can reduce or increase the surface tension.,FALSE,,,,,,
+paper_a,3.2.3-015,"Due to the high surface tension of water (72.8 mN/m), diluted DES may have higher values than pure DES.",FALSE,,,,,,
+paper_a,3.2.3-016,"However, adding water in large amounts can also reduce surface tension due to breaking hydrogen bonds.",FALSE,,,,,,
+paper_a,3.2.4-001,FTIR spectra of DES and their constituents are presented in Figure S1.,FALSE,,,,,,
+paper_a,3.2.4-002,The spectra of DES resemble those of their hydrogen bond donors with small absorbance shifts due to mixing with choline chloride.,FALSE,,,,,,
+paper_a,3.2.4-003,The identification of wave numbers for all DES is shown in Figure 4.,FALSE,,,,,,
+paper_a,3.2.4-004,"The absorbances identified between 3496 and 3200 cm–1 indicate the presence of single O–H stretching bonds, which denotes the effective presence of water in the medium.[35]",TRUE,35,,non_integral,,Claude,pending
+paper_a,3.2.4-005,"Stretching vibrations of the DES’s O–H functional group are less intense than those of HBD, indicating that the functional group participates in the formation of the hydrogen bonding interaction between choline chloride anions.[36]",TRUE,36,,non_integral,,Claude,pending
+paper_a,3.2.4-006,"The two weak absorbances corresponding to the C–H stretching bands occurred at 2657–2553 cm–1. [37],[38]",TRUE,37;38,,non_integral,,Claude,pending
+paper_a,3.2.4-007,Low-intensity absorbance at 1725–1613 cm–1 may be associated with CO elongation due to carboxylic acid groups.,FALSE,,,,,,
+paper_a,3.2.4-008,"For ChCl:Gly, the absorbance at 1479 cm–1 shows an H flexion, C–C stretching, and other vibrations at 1032 cm–1.[39]",TRUE,39,,non_integral,,Claude,pending
+paper_a,3.3.1-001,The first set of experiments was performed to narrow the number of DESs for process optimization.,FALSE,,,,,,
+paper_a,3.3.1-002,"From the six initial DESs, the two best-performing DESs were selected for the second set of experiments.",FALSE,,,,,,
+paper_a,3.3.1-003,"Experiments were conducted using high-power, low-frequency ultrasound to evaluate the performance of DES in extracting phenolics and other compounds.",FALSE,,,,,,
+paper_a,3.3.1-004,The decision of the best performing DES was selected based on the amount of phenolics extracted measured by the Folin–Ciocalteu method.,FALSE,,,,,,
+paper_a,3.3.1-005,Ethanol was used as the reference solvent for comparison purposes.,FALSE,,,,,,
+paper_a,3.3.1-006,Figure 5 presents the amount of phenolic compounds extracted from BSG.,FALSE,,,,,,
+paper_a,3.3.1-007,"The TPC ranged from 0.201 to 0.014 mg of GAE/L, following the order ChCl:LA > ethanol > ChCl:OA > (ChCl:LA + water) > (ChCl:Gly + water) > ChCl:CA > ChCl:Gly.",FALSE,,,,,,
+paper_a,3.3.1-008,"The two best-performing DESs were ChCl:LA and ChCl:OA, which were selected for further process optimization.",FALSE,,,,,,
+paper_a,3.3.1-009,"In general, a greater ability to extract phenolic compounds was observed for DES produced from carboxylic acids than from polyalcohols (ChCl:Gly).",FALSE,,,,,,
+paper_a,3.3.1-010,"Our results differed from the results of the study by López-Linares et al.,[23] in which ChCl:Gly was more efficient in extracting total phenolics from BSG.",TRUE,23,,integral,경계: 보고동사 없이 결과 귀속,Claude,pending
+paper_a,3.3.1-011,"The addition of water to ChCl:Gly resulted in a better extraction yield, probably due to its lower viscosity, which improved mass transfer.",FALSE,,,,,,
+paper_a,3.3.1-012,"Other studies also reported that ChCl:Gly added with water was more effective in extracting phenolic compounds than pure ChCl:Gly. [40],[41]",TRUE,40;41,reported,non_integral,비통합 인용 시험 문장. 부사 also는 동사 범위에서 제외,Claude,pending
+paper_a,3.3.1-013,The addition of water to ChCl:LA did not have the same effect.,FALSE,,,,,,
+paper_a,3.3.1-014,The extraction yield decreased by 27% compared to the pure DES.,FALSE,,,,,,
+paper_a,3.3.1-015,"The decrease could be related to an increase in its polarity, which does not favor the extraction of phenolic compounds.[42]",TRUE,42,,non_integral,,Claude,pending
+paper_a,3.3.1-016,"A notable challenge in the TPC analysis was the formation of precipitates during sample preparation using the Folin–Ciocalteu method, which may explain the observed variability in the results shown in Figure 5.",FALSE,,,,,,
+paper_a,3.3.1-017,"Initially, it was hypothesized that DES itself was destabilizing and precipitating when the reagents were added.",FALSE,,,,,,
+paper_a,3.3.1-018,"To rule out this possibility, samples were prepared by mixing DES with each reagent individually and the solutions were monitored for precipitate formation; however, no precipitate was observed.",FALSE,,,,,,
+paper_a,3.3.1-019,This led to the second hypothesis that precipitation occurred due to the reaction of certain compounds extracted during DES-based extractions.,FALSE,,,,,,
+paper_a,3.3.1-020,"After some literature research, we found that precipitate formation was common in other studies extracting phenolic compounds of agro-industrial materials, and that a cleanup could be a good strategy to remove unwanted products and reduce precipitate formation. [43],[44]",TRUE,43;44,,non_integral,"경계: ""we found"" — 주어가 필자. 문헌 조사 결과를 필자가 서술",Claude,pending
+paper_a,3.3.1-021,"The extracts were then evaluated by gas chromatography coupled with mass spectroscopy, which indicated that the extracts contained some phenolics and large amounts of sugars, fatty acids, and fatty acid esters.",FALSE,,,,,,
+paper_a,3.3.1-022,"Thus, a strategy for the cleanup of the samples was shown to be essential to improve the quality of the phenolic extracts.",FALSE,,,,,,
+paper_a,3.3.1-023,"Furthermore, chemical characterization of the extracts showed that the high ultrasonic power density imposed by probe ultrasound probably degraded part of the phenolic compounds, and a lower ultrasonic power density should be employed in the process.",FALSE,,,,,,
+paper_a,3.3.2-001,A two-stage process was evaluated to improve the quality of the phenolic extract.,FALSE,,,,,,
+paper_a,3.3.2-002,"The first stage of the process is referred to as a cleanup stage, where ethanol and hexane were investigated as cleanup solvents to remove most of the sugars, fatty acids, and fatty acid esters from BSG.",FALSE,,,,,,
+paper_a,3.3.2-003,Hexane was chosen for its ability to dissolve nonpolar compounds while minimizing the coextraction of phenolic compounds from BSG.,FALSE,,,,,,
+paper_a,3.3.2-004,"Ethanol, on the other hand, was selected for its significantly lower toxicity compared to hexane and other commonly used solvents.",FALSE,,,,,,
+paper_a,3.3.2-005,"Other studies have also used these solvents for the removal of sugars and fatty acids, highlighting their effectiveness in similar applications. [45],[46]",TRUE,45;46,"have also used, highlighting",non_integral,한 문장에 동사 2개,Claude,pending
+paper_a,3.3.2-006,"ChCl:LA and ChCl:OA were employed as solvents for the second stage, where most of the phenolic compounds would be extracted.",FALSE,,,,,,
+paper_a,3.3.2-007,Both stages were carried out in an ultrasonic bath to deliver a lower ultrasonic power density avoiding the degradation of phenolic compounds.,FALSE,,,,,,
+paper_a,3.3.2-008,"Figure 6 presents the TPC of the BSG extracts obtained at 30, 40, and 50 °C.",FALSE,,,,,,
+paper_a,3.3.2-009,"At 30 °C, the most favorable extraction condition using ChCl:LA was achieved after 5 min of sonication using the combination hexane–ChCl:LA, resulting in a TPC of 0.086 mg of GAE L–1.",FALSE,,,,,,
+paper_a,3.3.2-010,"The TPC for this system decreased by 88% after 10 min, and no phenolics were detected after 20 min.",FALSE,,,,,,
+paper_a,3.3.2-011,"Although several phenolics are stable under mild sonication (<500 W/L) and near-ambient temperatures (30 °C), the results indicated that the phenolics have degraded during extended sonication.",FALSE,,,,,,
+paper_a,3.3.2-012,Phenolic compounds were not detected in the extractions carried out with the combination of ethanol-ChCl:LA.,FALSE,,,,,,
+paper_a,3.3.2-013,"In this case, most probably, the phenolics were extracted by ethanol in the cleanup stage, resulting in no further extraction.",FALSE,,,,,,
+paper_a,3.3.2-014,"The hexane–ChCl:OA system at 30 °C also showed the best result at 5 min of sonication, resulting in a TPC of 0.516 mg of GAE L–1, which gradually decreased over time.",FALSE,,,,,,
+paper_a,3.3.2-015,"Other studies showed the same relationship with higher extraction efficiency in shorter sonication periods. [47],[48]",TRUE,47;48,showed,non_integral,,Claude,pending
+paper_a,3.3.2-016,"The ethanol–ChCl:OA system reached the highest efficiency in 20 min, extracting 0.513 mg of GAEL–1 of phenolic compounds.",FALSE,,,,,,
+paper_a,3.3.2-017,"At 40 °C, the hexane–ChCl:LA system extracted 0.031 mg of GAE L–1 phenolics, a level that was maintained for 20 min, decreasing afterward.",FALSE,,,,,,
+paper_a,3.3.2-018,It could be concluded that increasing the extraction time did not lead to better results with this system.,FALSE,,,,,,
+paper_a,3.3.2-019,The best outcome for the combination of ethanol-ChCl:LA was obtained after 5 min with a much better performance (0.072 mg GAE L–1) than the hexane–ChCl:LA system.,FALSE,,,,,,
+paper_a,3.3.2-020,"Phenolic compounds concentration decreased after 10 and 20 min, indicating degradation of the phenolics.",FALSE,,,,,,
+paper_a,3.3.2-021,"Once again, ChCl:OA showed a greater capability of extracting phenolics than ChCl:LA.",FALSE,,,,,,
+paper_a,3.3.2-022,"The best extraction condition for the ChCl:OA systems was observed after 10 min of sonication, with 0.413 mg of GAE L–1 attained by the hexane-ChCl:OA system and 0.482 mg of GAE L–1 obtained with the ethanol–ChCl:OA system.",FALSE,,,,,,
+paper_a,3.3.2-023,"Statistically, there was no difference between the best performance of the hexane–ChCl:OA and the ethanol–ChCl:OA systems at 30 and 40 °C (Table S5).",FALSE,,,,,,
+paper_a,3.3.2-024,"At 50 °C, the best extraction yields occurred after 30 min of sonication for all systems.",FALSE,,,,,,
+paper_a,3.3.2-025,"As observed with the extractions at 30 and 40 °C, ChCl:LA showed a lower capacity to extract phenolics than ChCl:OA.",FALSE,,,,,,
+paper_a,3.3.2-026,"The ethanol–ChCl:LA system resulted in the extraction of 0.055 mg of GAE L–1, while the ethanol–ChCl:OA system resulted in the extraction of 0.325 mg of GAEL–1 of phenolic compounds.",FALSE,,,,,,
+paper_a,3.3.2-027,"The biggest difference observed at 50 °C was that the optimal extraction time was 30 min, whereas at 30 and 40 °C, the best results occurred between 5 and 10 min.",FALSE,,,,,,
+paper_a,3.3.2-028,"When the results obtained at 30 and 40 °C were compared, increasing the temperature did not lead to higher TPC yields.",FALSE,,,,,,
+paper_a,3.3.2-029,"Although higher temperatures favor mass diffusivity, decrease viscosity and surface tension of DES, and improve the release of phenolics from its matrix, [34],[49] these factors did not affect our proposed two-stage process.",TRUE,34;49,,non_integral,,Claude,pending
+paper_a,3.3.2-030,"Higher decomposition rates and loss of stability of phenolic compounds occurred above 40 °C, decreasing the total yield of phenolic compounds in the processes carried out at 50 °C.",FALSE,,,,,,
+paper_a,3.3.2-031,"Serial extraction with hexane as a cleanup solvent was more effective for both DESs, probably because it removed fewer phenolic compounds than ethanol in the first stage.",FALSE,,,,,,
+paper_a,3.3.2-032,The inclusion of a cleanup stage was essential to reduce variability in the results.,FALSE,,,,,,
+paper_a,3.3.2-033,"Other studies using DES for extracting various compounds from BSG did not include a cleanup step and relied on higher temperatures (100 and 180 °C) and longer extraction times to achieve satisfactory yields. [23],[50]",TRUE,23;50,"did not include, relied on",non_integral,한 문장에 동사 2개. 타 연구 절차에 대한 비판적 보고,Claude,pending
+paper_a,3.3.2-034,"Consequently, these studies often coextracted residual solid impurities along with the target compounds.",FALSE,,,,,,
+paper_a,3.3.2-035,"Other studies exploring BSG as a source of valuable compounds highlight the use of ILs as promising solvents for the biorefinery of this agro-industrial waste; [51]−[52] [53] however, their application for phenolic compound recovery from BSG remains limited.",TRUE,51;52;53,highlight,non_integral,,Claude,pending
+paper_a,3.3.2-036,"While this study does not claim superiority over IL-based methods, it demonstrates that DESs, coupled with a cleanup stage, can provide a viable solution for phenolic compound extraction under mild temperatures and shorter extraction times.",FALSE,,,,,,
+paper_a,3.3.2-037,"In addition to the extraction efficiency demonstrated with the two-stage process (cleanup and extraction), a third stage should be added to enhance the environmental and economic value of the process: the reuse of DES.",FALSE,,,,,,
+paper_a,3.3.2-038,"A comprehensive review by Isci and Kaltschmitt,[54] encompassing more than 40 studies, highlights the potential for recycling DESs over 4, 5, and even 10 cycles without significantly compromising their extraction efficiency.",TRUE,54,highlights,integral,저자명이 문장 안에 있어 통합,Claude,pending
+paper_a,3.3.2-039,"Although the recycling of DESs was not experimentally evaluated in this study, DESs composed of choline chloride and carboxylic acids have been successfully recovered and reused in other studies. [55]−[56] [57]",TRUE,55;56;57,"have been successfully recovered, reused",non_integral,수동태 연구 행위 귀속. 회수와 재사용은 따로 성립하는 행위라 두 항목(명세서 v1.2 등위 동사 규칙),Claude,pending
+paper_a,3.3.2-040,"Wang et al.[55] showed that ChCl:OA can be reused up to 10 times for biomass pretreatment if, after each cycle, the DES is filtered, recovered using a rotary evaporator, and its composition is adjusted with oxalic acid or fresh DES to restore its original composition before the next cycle.",TRUE,55,showed,integral,,Claude,pending
+paper_a,3.3.2-041,"According to Yiin et al.,[58] the current challenge in the use of DESs is the high cost of the raw chemicals required for their production.",TRUE,58,,integral,"경계: ""According to"" — 동사 아님",Claude,pending
+paper_a,3.3.2-042,"However, these costs could potentially be offset by the use of DES in multiproduct biorefineries that focus on high-value, low-volume products rather than conventional low-value, high-volume products.[59]",TRUE,59,,non_integral,,Claude,pending
+paper_a,3.3.2-043,DESs have the potential to contribute to these advanced biorefineries by enabling the extraction of multiple products by first acting in the removal of sugars and fatty acids and then being recycled and reused to extract other valuable compounds.,FALSE,,,,,,
+paper_a,3.3.2-044,"Moreover, as demonstrated by the results of this study, DESs not only show great promise in recovering bioactive compounds but also reduce operational costs through a lower energy consumption.",FALSE,,,,,,
+paper_a,3.3.2-045,"The process developed here operates at mild temperatures (30–50 °C) and requires short extraction times, showcasing the potential of DESs to combine environmental and economic benefits in a sustainable extraction process.",FALSE,,,,,,
+paper_a,3.3.3-001,"It is often argued that the relatively high viscosity of DESs is a significant limitation in extraction processes, as the transport rate of molecules from the solid substrate to the solvent is reduced, thus decreasing the efficiency of the extraction process.[60]",TRUE,60,is often argued,non_integral,,Claude,pending
+paper_a,3.3.3-002,"Also, in microwave or ultrasound-assisted extraction processes, the high viscosity of DES can reduce cavitation due to the viscous forces limiting propagation of the shockwaves through the liquid.[61]",TRUE,61,,non_integral,,Claude,pending
+paper_a,3.3.3-003,The viscosity of the DES used in the two-stage extraction made a great difference.,FALSE,,,,,,
+paper_a,3.3.3-004,DES ChCl:LA had a significantly lower dynamic viscosity of 86.75 mPas at 30 °C than the DES ChCl:OA that demonstrates a higher viscosity of 224.73 mPas at the identical temperature.,FALSE,,,,,,
+paper_a,3.3.3-005,"However, the highest yields of phenolic compounds were obtained with the hexane–ChCl:OA system with the highest TPC during 5 min of sonication at 30 °C as concluded from all combinations tested.",FALSE,,,,,,
+paper_a,3.3.3-006,"Although the high viscosity of DES ChCl:OA initially raised concerns, its chemical composition may have played a more advantageous role by facilitating deeper penetration into the BSG matrix and enhancing interactions with phenolic compounds.",FALSE,,,,,,
+paper_a,3.3.3-007,"This behavior suggests that the chemical composition of the DES may be as important, if not more so, as its absolute viscosity in extraction processes.",FALSE,,,,,,
+paper_a,3.3.3-008,"Further investigations are needed to confirm whether, under certain circumstances, a high viscosity could contribute to increased selectivity and improve the quality of phenolic extracts.",FALSE,,,,,,
+paper_a,3.4-001,"Despite the promising results in the use of DES for phenol extraction, this study revealed limitations that need to be addressed to enable the industrial application of this process.",FALSE,,,,,,
+paper_a,3.4-002,"An interesting finding was that at higher temperatures, the amount of extracted material was reduced.",FALSE,,,,,,
+paper_a,3.4-003,It needs to be investigated whether this reduction is due to the thermal degradation of the phenolic compounds or whether the decrease in DES viscosity also reduces the efficiency of the extraction.,FALSE,,,,,,
+paper_a,3.4-004,"Previously, it was assumed that the viscosity of the DES was only a negative factor in the extraction process, but in this study, the more viscous DES proved to be more effective.",FALSE,,,,,,
+paper_a,3.4-005,Another limitation of the study was the use of the Folin–Ciocalteu method for TPC analysis.,FALSE,,,,,,
+paper_a,3.4-006,"Future research should explore complementary analytical methods, such as HPLC or mass spectrometry, to ensure greater consistency and precision in the quantification of the extracted compounds.",FALSE,,,,,,
+paper_a,3.4-007,"To further improve the sustainability of the process, the purification phase could be performed with a DES specifically designed for high selectivity in sugars and oils, while having low efficiency in the extraction of phenolic compounds.",FALSE,,,,,,
+paper_a,3.4-008,"Furthermore, it is crucial to develop strategies to effectively separate DES from the extracted phenolic compounds to ensure their purity and usability in downstream applications",FALSE,,,,,,
+paper_a,4-001,Four DESs were used to extract phenolic compounds from BSG.,FALSE,,,,,,
+paper_a,4-002,"A two-stage extraction process was performed due to the need to remove sugars, fatty acids, and fatty acid esters from BSG.",FALSE,,,,,,
+paper_a,4-003,Ethanol and hexane were used as the first cleanup solvents.,FALSE,,,,,,
+paper_a,4-004,"Hexane was the best cleanup solvent at 30 °C, and no statistical difference was observed between the two cleanup solvents at higher temperatures (40 and 50 °C).",FALSE,,,,,,
+paper_a,4-005,ChCl:OA was the best-performing DES in the extraction of outstanding phenolic compounds ChCl:LA.,FALSE,,,,,,
+paper_a,4-006,The performances of the hexane-ChCl:OA and ethanol-ChCL:OA systems were statistically similar.,FALSE,,,,,,
+paper_a,4-007,"However, the ethanol–ChCl:OA system required longer sonication periods in comparison to the hexane–ChCl:OA system.",FALSE,,,,,,
+paper_a,4-008,DES mixtures with 25% (v/v) water did not yield higher TPC yields.,FALSE,,,,,,
+paper_a,4-009,This study concluded that BSG is a residue with satisfactory recycling potential and can be used as a raw material for the synthesis of phenolic compounds.,FALSE,,,,,,

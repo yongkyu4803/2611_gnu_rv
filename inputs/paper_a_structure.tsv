@@ -1,0 +1,250 @@
+document_id	sentence_id	order	section_type	section_label	section_title	paragraph_id	sentence_in_paragraph	word_count
+paper_a	0-001	1	ABS	0	Abstract	P001	1	13
+paper_a	0-002	2	ABS	0	Abstract	P001	2	27
+paper_a	0-003	3	ABS	0	Abstract	P001	3	23
+paper_a	0-004	4	ABS	0	Abstract	P001	4	19
+paper_a	0-005	5	ABS	0	Abstract	P001	5	48
+paper_a	0-006	6	ABS	0	Abstract	P001	6	13
+paper_a	0-007	7	ABS	0	Abstract	P001	7	26
+paper_a	0-008	8	ABS	0	Abstract	P001	8	22
+paper_a	0-009	9	ABS	0	Abstract	P001	9	32
+paper_a	0-010	10	ABS	0	Abstract	P001	10	23
+paper_a	1-001	11	INT	1	Introduction	P002	1	16
+paper_a	1-002	12	INT	1	Introduction	P002	2	11
+paper_a	1-003	13	INT	1	Introduction	P002	3	17
+paper_a	1-004	14	INT	1	Introduction	P002	4	16
+paper_a	1-005	15	INT	1	Introduction	P002	5	18
+paper_a	1-006	16	INT	1	Introduction	P003	1	26
+paper_a	1-007	17	INT	1	Introduction	P003	2	21
+paper_a	1-008	18	INT	1	Introduction	P003	3	39
+paper_a	1-009	19	INT	1	Introduction	P004	1	39
+paper_a	1-010	20	INT	1	Introduction	P004	2	11
+paper_a	1-011	21	INT	1	Introduction	P004	3	19
+paper_a	1-012	22	INT	1	Introduction	P004	4	30
+paper_a	1-013	23	INT	1	Introduction	P004	5	10
+paper_a	1-014	24	INT	1	Introduction	P005	1	60
+paper_a	1-015	25	INT	1	Introduction	P006	1	22
+paper_a	1-016	26	INT	1	Introduction	P006	2	25
+paper_a	1-017	27	INT	1	Introduction	P006	3	15
+paper_a	1-018	28	INT	1	Introduction	P006	4	24
+paper_a	1-019	29	INT	1	Introduction	P007	1	20
+paper_a	1-020	30	INT	1	Introduction	P007	2	24
+paper_a	1-021	31	INT	1	Introduction	P007	3	31
+paper_a	1-022	32	INT	1	Introduction	P007	4	31
+paper_a	1-023	33	INT	1	Introduction	P008	1	20
+paper_a	1-024	34	INT	1	Introduction	P008	2	23
+paper_a	2.1-001	35	MET	2.1	Experimental Section > Brewer’s Spent Grain	P009	1	11
+paper_a	2.1-002	36	MET	2.1	Experimental Section > Brewer’s Spent Grain	P009	2	15
+paper_a	2.1-003	37	MET	2.1	Experimental Section > Brewer’s Spent Grain	P009	3	19
+paper_a	2.1-004	38	MET	2.1	Experimental Section > Brewer’s Spent Grain	P009	4	28
+paper_a	2.2-001	39	MET	2.2	Experimental Section > Chemicals	P010	1	31
+paper_a	2.2-002	40	MET	2.2	Experimental Section > Chemicals	P010	2	18
+paper_a	2.3-001	41	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P011	1	4
+paper_a	2.3-002	42	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P011	2	16
+paper_a	2.3-003	43	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P011	3	24
+paper_a	2.3-004	44	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P011	4	29
+paper_a	2.3-005	45	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P012	1	21
+paper_a	2.3-006	46	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P012	2	11
+paper_a	2.3-007	47	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P013	1	18
+paper_a	2.3-008	48	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P013	2	27
+paper_a	2.3-009	49	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P013	3	14
+paper_a	2.3-010	50	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	1	7
+paper_a	2.3-011	51	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	2	29
+paper_a	2.3-012	52	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	3	28
+paper_a	2.3-013	53	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	4	20
+paper_a	2.3-014	54	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	5	13
+paper_a	2.3-015	55	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P014	6	11
+paper_a	2.3-016	56	MET	2.3	Experimental Section > Deep Eutectic Solvent Preparation	P015	1	28
+paper_a	2.4.1-001	57	MET	2.4.1	Experimental Section > DES Characterization > Density and Viscosity	P016	1	26
+paper_a	2.4.1-002	58	MET	2.4.1	Experimental Section > DES Characterization > Density and Viscosity	P016	2	11
+paper_a	2.4.1-003	59	MET	2.4.1	Experimental Section > DES Characterization > Density and Viscosity	P016	3	21
+paper_a	2.4.2-001	60	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P017	1	22
+paper_a	2.4.2-002	61	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P017	2	13
+paper_a	2.4.2-003	62	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P018	1	29
+paper_a	2.4.2-004	63	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P018	2	13
+paper_a	2.4.2-005	64	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P018	3	11
+paper_a	2.4.2-006	65	MET	2.4.2	Experimental Section > DES Characterization > Determination of the Water Content and Surface Tension	P018	4	14
+paper_a	2.4.3-001	66	MET	2.4.3	Experimental Section > DES Characterization > Chemical Characterization	P019	1	23
+paper_a	2.4.3-002	67	MET	2.4.3	Experimental Section > DES Characterization > Chemical Characterization	P019	2	17
+paper_a	2.4.3-003	68	MET	2.4.3	Experimental Section > DES Characterization > Chemical Characterization	P019	3	17
+paper_a	2.5.1-001	69	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	1	19
+paper_a	2.5.1-002	70	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	2	36
+paper_a	2.5.1-003	71	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	3	29
+paper_a	2.5.1-004	72	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	4	22
+paper_a	2.5.1-005	73	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	5	8
+paper_a	2.5.1-006	74	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P020	6	22
+paper_a	2.5.1-007	75	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P021	1	14
+paper_a	2.5.1-008	76	MET	2.5.1	Experimental Section > Extraction of Phenolic Compounds > DES Selection Assays	P021	2	22
+paper_a	2.5.2-001	77	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P022	1	34
+paper_a	2.5.2-002	78	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P022	2	19
+paper_a	2.5.2-003	79	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P022	3	28
+paper_a	2.5.2-004	80	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P023	1	13
+paper_a	2.5.2-005	81	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P023	2	34
+paper_a	2.5.2-006	82	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P024	1	20
+paper_a	2.5.2-007	83	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P024	2	15
+paper_a	2.5.2-008	84	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P024	3	22
+paper_a	2.5.2-009	85	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P025	1	26
+paper_a	2.5.2-010	86	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P025	2	15
+paper_a	2.5.2-011	87	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P025	3	13
+paper_a	2.5.2-012	88	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P025	4	21
+paper_a	2.5.2-013	89	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P026	1	25
+paper_a	2.5.2-014	90	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P026	2	12
+paper_a	2.5.2-015	91	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P026	3	20
+paper_a	2.5.2-016	92	MET	2.5.2	Experimental Section > Extraction of Phenolic Compounds > Ultrasound-Assisted Extraction	P026	4	13
+paper_a	2.6-001	93	MET	2.6	Experimental Section > Total Phenolic Content	P027	1	34
+paper_a	2.6-002	94	MET	2.6	Experimental Section > Total Phenolic Content	P027	2	23
+paper_a	2.6-003	95	MET	2.6	Experimental Section > Total Phenolic Content	P027	3	15
+paper_a	2.6-004	96	MET	2.6	Experimental Section > Total Phenolic Content	P027	4	15
+paper_a	2.6-005	97	MET	2.6	Experimental Section > Total Phenolic Content	P027	5	18
+paper_a	2.7-001	98	MET	2.7	Experimental Section > Statistical Analysis	P028	1	8
+paper_a	2.7-002	99	MET	2.7	Experimental Section > Statistical Analysis	P028	2	8
+paper_a	2.7-003	100	MET	2.7	Experimental Section > Statistical Analysis	P028	3	18
+paper_a	2.7-004	101	MET	2.7	Experimental Section > Statistical Analysis	P028	4	17
+paper_a	3.1-001	102	RD	3.1	Results and Discussion > BSG Surface Characterization	P029	1	17
+paper_a	3.1-002	103	RD	3.1	Results and Discussion > BSG Surface Characterization	P029	2	19
+paper_a	3.1-003	104	RD	3.1	Results and Discussion > BSG Surface Characterization	P029	3	28
+paper_a	3.1-004	105	RD	3.1	Results and Discussion > BSG Surface Characterization	P029	4	18
+paper_a	3.2.1-001	106	RD	3.2.1	Results and Discussion > DES Characterization > Density	P030	1	14
+paper_a	3.2.1-002	107	RD	3.2.1	Results and Discussion > DES Characterization > Density	P030	2	18
+paper_a	3.2.1-003	108	RD	3.2.1	Results and Discussion > DES Characterization > Density	P030	3	8
+paper_a	3.2.1-004	109	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	1	24
+paper_a	3.2.1-005	110	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	2	23
+paper_a	3.2.1-006	111	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	3	20
+paper_a	3.2.1-007	112	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	4	8
+paper_a	3.2.1-008	113	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	5	33
+paper_a	3.2.1-009	114	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	6	29
+paper_a	3.2.1-010	115	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	7	24
+paper_a	3.2.1-011	116	RD	3.2.1	Results and Discussion > DES Characterization > Density	P031	8	21
+paper_a	3.2.2-001	117	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	1	16
+paper_a	3.2.2-002	118	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	2	16
+paper_a	3.2.2-003	119	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	3	20
+paper_a	3.2.2-004	120	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	4	7
+paper_a	3.2.2-005	121	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	5	15
+paper_a	3.2.2-006	122	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	6	9
+paper_a	3.2.2-007	123	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	7	11
+paper_a	3.2.2-008	124	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P032	8	22
+paper_a	3.2.2-009	125	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P033	1	10
+paper_a	3.2.2-010	126	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P033	2	22
+paper_a	3.2.2-011	127	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P033	3	8
+paper_a	3.2.2-012	128	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P033	4	33
+paper_a	3.2.2-013	129	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P033	5	27
+paper_a	3.2.2-014	130	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P034	1	13
+paper_a	3.2.2-015	131	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P034	2	19
+paper_a	3.2.2-016	132	RD	3.2.2	Results and Discussion > DES Characterization > Viscosity	P034	3	34
+paper_a	3.2.3-001	133	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P035	1	12
+paper_a	3.2.3-002	134	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P035	2	14
+paper_a	3.2.3-003	135	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P035	3	29
+paper_a	3.2.3-004	136	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P035	4	32
+paper_a	3.2.3-005	137	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P035	5	38
+paper_a	3.2.3-006	138	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P036	1	25
+paper_a	3.2.3-007	139	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P036	2	34
+paper_a	3.2.3-008	140	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P036	3	14
+paper_a	3.2.3-009	141	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P036	4	26
+paper_a	3.2.3-010	142	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P036	5	10
+paper_a	3.2.3-011	143	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	1	16
+paper_a	3.2.3-012	144	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	2	38
+paper_a	3.2.3-013	145	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	3	14
+paper_a	3.2.3-014	146	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	4	12
+paper_a	3.2.3-015	147	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	5	19
+paper_a	3.2.3-016	148	RD	3.2.3	Results and Discussion > DES Characterization > Superficial Tension	P037	6	16
+paper_a	3.2.4-001	149	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	1	12
+paper_a	3.2.4-002	150	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	2	21
+paper_a	3.2.4-003	151	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	3	13
+paper_a	3.2.4-004	152	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	4	26
+paper_a	3.2.4-005	153	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	5	33
+paper_a	3.2.4-006	154	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	6	15
+paper_a	3.2.4-007	155	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	7	16
+paper_a	3.2.4-008	156	RD	3.2.4	Results and Discussion > DES Characterization > Chemical Analysis	P038	8	19
+paper_a	3.3.1-001	157	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	1	16
+paper_a	3.3.1-002	158	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	2	17
+paper_a	3.3.1-003	159	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	3	19
+paper_a	3.3.1-004	160	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	4	21
+paper_a	3.3.1-005	161	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	5	10
+paper_a	3.3.1-006	162	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P039	6	11
+paper_a	3.3.1-007	163	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P040	1	30
+paper_a	3.3.1-008	164	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P040	2	15
+paper_a	3.3.1-009	165	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P040	3	21
+paper_a	3.3.1-010	166	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P040	4	25
+paper_a	3.3.1-011	167	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P041	1	22
+paper_a	3.3.1-012	168	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P041	2	20
+paper_a	3.3.1-013	169	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P042	1	12
+paper_a	3.3.1-014	170	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P042	2	11
+paper_a	3.3.1-015	171	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P042	3	20
+paper_a	3.3.1-016	172	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P043	1	32
+paper_a	3.3.1-017	173	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P043	2	16
+paper_a	3.3.1-018	174	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P043	3	28
+paper_a	3.3.1-019	175	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P043	4	20
+paper_a	3.3.1-020	176	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P043	5	38
+paper_a	3.3.1-021	177	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P044	1	31
+paper_a	3.3.1-022	178	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P044	2	22
+paper_a	3.3.1-023	179	RD	3.3.1	Results and Discussion > Extraction and Analysis of Total Phenolics > Selection of the Best DESs for Extraction of Phenolic Compounds	P044	3	36
+paper_a	3.3.2-001	180	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P045	1	13
+paper_a	3.3.2-002	181	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P045	2	36
+paper_a	3.3.2-003	182	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P045	3	19
+paper_a	3.3.2-004	183	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P045	4	20
+paper_a	3.3.2-005	184	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P045	5	22
+paper_a	3.3.2-006	185	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P046	1	20
+paper_a	3.3.2-007	186	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P046	2	22
+paper_a	3.3.2-008	187	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	1	16
+paper_a	3.3.2-009	188	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	2	31
+paper_a	3.3.2-010	189	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	3	19
+paper_a	3.3.2-011	190	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	4	26
+paper_a	3.3.2-012	191	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	5	15
+paper_a	3.3.2-013	192	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	6	20
+paper_a	3.3.2-014	193	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	7	31
+paper_a	3.3.2-015	194	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	8	15
+paper_a	3.3.2-016	195	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P047	9	18
+paper_a	3.3.2-017	196	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	1	23
+paper_a	3.3.2-018	197	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	2	18
+paper_a	3.3.2-019	198	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	3	26
+paper_a	3.3.2-020	199	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	4	14
+paper_a	3.3.2-021	200	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	5	12
+paper_a	3.3.2-022	201	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	6	37
+paper_a	3.3.2-023	202	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P048	7	23
+paper_a	3.3.2-024	203	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P049	1	16
+paper_a	3.3.2-025	204	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P049	2	20
+paper_a	3.3.2-026	205	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P049	3	29
+paper_a	3.3.2-027	206	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P049	4	31
+paper_a	3.3.2-028	207	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P050	1	21
+paper_a	3.3.2-029	208	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P050	2	32
+paper_a	3.3.2-030	209	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P050	3	29
+paper_a	3.3.2-031	210	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P050	4	27
+paper_a	3.3.2-032	211	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P051	1	14
+paper_a	3.3.2-033	212	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P051	2	34
+paper_a	3.3.2-034	213	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P051	3	13
+paper_a	3.3.2-035	214	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P052	1	38
+paper_a	3.3.2-036	215	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P052	2	35
+paper_a	3.3.2-037	216	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P053	1	34
+paper_a	3.3.2-038	217	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P053	2	31
+paper_a	3.3.2-039	218	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P053	3	31
+paper_a	3.3.2-040	219	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P053	4	49
+paper_a	3.3.2-041	220	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P054	1	25
+paper_a	3.3.2-042	221	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P054	2	27
+paper_a	3.3.2-043	222	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P054	3	39
+paper_a	3.3.2-044	223	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P055	1	29
+paper_a	3.3.2-045	224	RD	3.3.2	Results and Discussion > Extraction and Analysis of Total Phenolics > Evaluation of the Two-Stage Process on the Extraction of Phenolic Compounds	P055	2	31
+paper_a	3.3.3-001	225	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P056	1	41
+paper_a	3.3.3-002	226	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P056	2	28
+paper_a	3.3.3-003	227	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P057	1	14
+paper_a	3.3.3-004	228	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P057	2	30
+paper_a	3.3.3-005	229	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P057	3	31
+paper_a	3.3.3-006	230	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P058	1	34
+paper_a	3.3.3-007	231	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P058	2	25
+paper_a	3.3.3-008	232	RD	3.3.3	Results and Discussion > Extraction and Analysis of Total Phenolics > Influence of Viscosity on Extraction Efficiency	P059	1	25
+paper_a	3.4-001	233	RD	3.4	Results and Discussion > Challenges and Perspectives	P060	1	29
+paper_a	3.4-002	234	RD	3.4	Results and Discussion > Challenges and Perspectives	P060	2	15
+paper_a	3.4-003	235	RD	3.4	Results and Discussion > Challenges and Perspectives	P060	3	32
+paper_a	3.4-004	236	RD	3.4	Results and Discussion > Challenges and Perspectives	P061	1	32
+paper_a	3.4-005	237	RD	3.4	Results and Discussion > Challenges and Perspectives	P061	2	15
+paper_a	3.4-006	238	RD	3.4	Results and Discussion > Challenges and Perspectives	P061	3	26
+paper_a	3.4-007	239	RD	3.4	Results and Discussion > Challenges and Perspectives	P062	1	36
+paper_a	3.4-008	240	RD	3.4	Results and Discussion > Challenges and Perspectives	P063	1	25
+paper_a	4-001	241	CON	4	Conclusions	P064	1	10
+paper_a	4-002	242	CON	4	Conclusions	P064	2	21
+paper_a	4-003	243	CON	4	Conclusions	P064	3	10
+paper_a	4-004	244	CON	4	Conclusions	P064	4	27
+paper_a	4-005	245	CON	4	Conclusions	P064	5	13
+paper_a	4-006	246	CON	4	Conclusions	P064	6	11
+paper_a	4-007	247	CON	4	Conclusions	P064	7	14
+paper_a	4-008	248	CON	4	Conclusions	P064	8	12
+paper_a	4-009	249	CON	4	Conclusions	P064	9	26

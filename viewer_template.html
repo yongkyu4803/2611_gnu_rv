@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>보고동사로 다시 읽기 — 맥주 찌꺼기 논문 두 편 (v0.3)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F5F1; --sheet:#FFFFFF; --ink:#1D2B2A; --muted:#66706D; --rule:#D9DDD8; --faint:#ECEEEA;
+  --cite:#2E5AA8; --cite-bg:#E7EEF9; --pend:#B7791F; --a:#1F6F6A; --b:#8A5A1F;
+  --r-prior:#F1DC5A; --r-result:#BFE3C4; --r-interpret:#DDD0F2; --r-method:#CFDDEA; --r-ref:#DADDD9; --r-uncertain:#F6E1BE;
+  --l-prior:#A98A00; --l-result:#2F8A4A; --l-interpret:#7A4FB2; --l-method:#3D6E9C; --l-ref:#7D8582; --l-uncertain:#B7791F;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+  --serif:"Source Serif 4","Noto Serif KR","Iowan Old Style",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#101615; --sheet:#172120; --ink:#E4EAE8; --muted:#9AA6A3; --rule:#2C3936; --faint:#1E2A28;
+  --cite:#8FB2EE; --cite-bg:#1D2B42; --pend:#E0A64A; --a:#5FB8B0; --b:#D19A55;
+  --r-prior:#6E5F12; --r-result:#24503A; --r-interpret:#43325F; --r-method:#25415A; --r-ref:#3A403E; --r-uncertain:#5A4320;
+  --l-prior:#E3C84A; --l-result:#6CC48A; --l-interpret:#B79AE6; --l-method:#7FAFDA; --l-ref:#A3ABA8; --l-uncertain:#E0A64A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#101615; --sheet:#172120; --ink:#E4EAE8; --muted:#9AA6A3; --rule:#2C3936; --faint:#1E2A28;
+  --cite:#8FB2EE; --cite-bg:#1D2B42; --pend:#E0A64A; --a:#5FB8B0; --b:#D19A55;
+  --r-prior:#6E5F12; --r-result:#24503A; --r-interpret:#43325F; --r-method:#25415A; --r-ref:#3A403E; --r-uncertain:#5A4320;
+  --l-prior:#E3C84A; --l-result:#6CC48A; --l-interpret:#B79AE6; --l-method:#7FAFDA; --l-ref:#A3ABA8; --l-uncertain:#E0A64A; color-scheme:dark}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible,circle:focus-visible{outline:2px solid var(--cite);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+header.top{padding:38px 0 20px}
+header.top h1{font-family:var(--serif);font-weight:700;font-size:clamp(32px,5.4vw,52px);line-height:1.05;letter-spacing:-.02em}
+header.top h1 span{display:block;font-weight:600;font-size:clamp(17px,2.2vw,22px);letter-spacing:0;line-height:1.4;margin-top:12px;color:var(--muted)}
+.notice{margin-top:18px;border-left:3px solid var(--pend);padding:6px 0 6px 12px;font-size:14px;max-width:56em}
+.notice b{font-weight:600}
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--rule)}
+nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto}
+nav.tabs button{background:none;border:0;padding:14px 14px 12px;font-weight:500;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--ink)}
+.sw{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:1px}
+main{padding:22px 0 60px}
+.view[hidden]{display:none}
+.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin-bottom:20px}
+.panel h3{font-size:15px;font-weight:600}
+.hint{font-size:12.5px;color:var(--muted);margin:2px 0 10px}
+.ph{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:end;margin-bottom:16px}
+.ph h2{font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.35}
+.ph .src{color:var(--muted);font-size:13px;margin-top:4px}
+.ph .src a{color:inherit}
+.nums{display:flex;gap:20px;flex-wrap:wrap}
+.nums b{display:block;font-family:var(--serif);font-weight:600;font-size:26px;line-height:1}
+.nums span{font-size:12px;color:var(--muted)}
+.roles{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+.roles label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);border-radius:999px;padding:3px 10px 3px 6px;font-size:13px;cursor:pointer;user-select:none}
+.roles input{accent-color:var(--ink)}
+.roles i{display:inline-block;width:14px;height:12px;border-radius:2px}
+.roles em{font-style:normal;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.ctrl{display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:13px;color:var(--muted);margin-bottom:6px}
+.ctrl select{border:1px solid var(--rule);border-radius:6px;padding:3px 6px;background:var(--sheet);max-width:100%}
+.ctrl label{max-width:100%;display:inline-flex;gap:6px;align-items:center;min-width:0}
+.ctrl label select{min-width:0;flex:1}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .pt{cursor:pointer}
+.twocol{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.sent{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px;padding:7px 8px;border-radius:6px;cursor:pointer}
+.sent:hover{background:var(--faint)}
+.sent.sel{background:var(--faint);box-shadow:inset 3px 0 0 var(--ink)}
+.sent.flash{animation:fl 1.4s ease}
+@keyframes fl{0%{background:color-mix(in srgb,var(--r-prior) 70%,transparent)}100%{background:transparent}}
+@media (prefers-reduced-motion:reduce){.sent.flash{animation:none}}
+.sid{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:3px;white-space:nowrap}
+.txt{font-family:var(--serif);font-size:15.5px;line-height:1.7}
+.txt .c{font-family:var(--mono);font-size:12px;color:var(--cite);background:var(--cite-bg);padding:0 3px;border-radius:3px;white-space:nowrap}
+.txt mark{color:inherit;border-radius:2px;padding:0 1px}
+.txt mark.prior{background:linear-gradient(transparent 28%,var(--r-prior) 28%,var(--r-prior) 94%,transparent 94%)}
+.txt mark.result{background:var(--r-result)}
+.txt mark.interpret{background:var(--r-interpret)}
+.txt mark.method{background:var(--r-method)}
+.txt mark.ref{background:var(--r-ref)}
+.txt mark.uncertain{background:repeating-linear-gradient(135deg,var(--r-uncertain) 0 4px,transparent 4px 7px);box-shadow:inset 0 -2px 0 var(--l-uncertain)}
+.ctx .sent{cursor:default}
+.ctx .sent.focus{background:var(--faint);box-shadow:inset 3px 0 0 var(--l-prior)}
+.ev{margin-top:10px;border-top:1px solid var(--rule);padding-top:10px;font-size:13.5px}
+.ev table{width:100%;border-collapse:collapse}
+.ev th,.ev td{text-align:left;padding:5px 8px 5px 0;border-bottom:1px solid var(--faint);vertical-align:top}
+.ev th{font-size:12px;color:var(--muted);font-weight:600}
+.ev td code{font-family:var(--mono);font-size:12.5px}
+.pill{display:inline-block;padding:0 7px;border-radius:999px;font-size:12px;white-space:nowrap}
+.btn{border:1px solid var(--rule);background:var(--sheet);border-radius:6px;padding:5px 10px;font-size:13px}
+.btn:hover{border-color:var(--ink)}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.seg button{background:none;border:0;padding:5px 11px;font-size:13px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--sheet)}
+.kwic-row{display:grid;grid-template-columns:70px minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:baseline;padding:5px 6px;border-bottom:1px solid var(--faint);cursor:pointer;font-family:var(--serif);font-size:14.5px}
+.kwic-row:hover{background:var(--faint)}
+.kwic-row .l{text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;direction:rtl}
+.kwic-row .l span{direction:ltr;unicode-bidi:plaintext}
+.kwic-row .k{font-weight:600;background:var(--r-prior);padding:0 2px;border-radius:2px}
+.kwic-row .r{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kwic-in{display:flex;gap:8px;margin-bottom:8px}
+.kwic-in input{flex:1;max-width:280px;border:1px solid var(--rule);border-radius:6px;padding:5px 8px;background:var(--sheet)}
+.reader{max-height:70vh;overflow:auto;border-top:1px solid var(--rule);margin-top:8px}
+.reader h4{font-family:var(--serif);font-weight:600;font-size:16px;padding:12px 8px 6px;position:sticky;top:0;background:var(--sheet);z-index:1;border-bottom:1px solid var(--faint)}
+.cmp{width:100%;border-collapse:collapse;font-size:14px}
+.cmp th,.cmp td{text-align:right;padding:7px 9px;border-bottom:1px solid var(--rule);white-space:nowrap}
+.cmp th:first-child,.cmp td:first-child{text-align:left}
+.cmp thead th{font-size:12px;color:var(--muted);font-weight:600}
+.cmp td.a{color:var(--a)}.cmp td.b{color:var(--b)}
+.scroll{overflow-x:auto}
+.agents{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.agents .row{display:grid;grid-template-columns:150px minmax(0,1fr) 40px;gap:8px;align-items:center;font-size:13px;margin-bottom:4px}
+.agents .row i{display:block;height:12px;border-radius:2px}
+.agents .row span{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right}
+.notes{font-size:14px;max-width:56em}
+.notes li{margin:0 0 6px 18px}
+footer{border-top:1px solid var(--rule);padding:18px 0 30px;font-size:12.5px;color:var(--muted)}
+footer p+p{margin-top:6px}
+footer a{color:inherit}
+@media (max-width:900px){.twocol,.agents{grid-template-columns:1fr}.ph{grid-template-columns:1fr}}
+@media (max-width:560px){.sent{grid-template-columns:1fr;gap:2px}.kwic-row{grid-template-columns:1fr;gap:0}.kwic-row .l{direction:ltr;text-align:left;white-space:normal}.kwic-row .r{white-space:normal}.agents .row{grid-template-columns:120px minmax(0,1fr) 34px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <h1>보고동사로 다시 읽기<span>맥주 찌꺼기를 다룬 화학 논문 두 편, 누가 무엇을 보았다고 말하는가</span></h1>
+  <p class="notice"><b>표시된 역할은 판정이 끝난 결과가 아니라 후보입니다.</b> 사람이 확인하지 않았으며, 화면의 수치는 정확도가 아닙니다. SLA(감성 분석)와는 다른 분석입니다.<span id="runinfo" style="display:block;margin-top:4px"></span></p>
+</header>
+</div>
+<nav class="tabs" aria-label="보기 선택"><div class="wrap" role="tablist">
+  <button role="tab" id="t-a" aria-selected="true" data-v="a"><span class="sw" style="background:var(--a)"></span>논문 A</button>
+  <button role="tab" id="t-b" aria-selected="false" data-v="b"><span class="sw" style="background:var(--b)"></span>논문 B</button>
+  <button role="tab" id="t-c" aria-selected="false" data-v="c">두 논문 나란히</button>
+</div></nav>
+<main class="wrap">
+  <section class="view" id="v-a" role="tabpanel" aria-labelledby="t-a"></section>
+  <section class="view" id="v-b" role="tabpanel" aria-labelledby="t-b" hidden></section>
+  <section class="view" id="v-c" role="tabpanel" aria-labelledby="t-c" hidden></section>
+</main>
+<footer><div class="wrap">
+  <p>원문: 논문 A — Paiva Santiago P, Fernandes FAN, de Santiago-Aguiar RS (2025), <i>ACS Omega</i> 10(22), 22603–22612, <a href="https://doi.org/10.1021/acsomega.4c10526">doi:10.1021/acsomega.4c10526</a>. 논문 B — Bleus D 외 (2024), <i>Molecules</i> 29(9), 1983, <a href="https://doi.org/10.3390/molecules29091983">doi:10.3390/molecules29091983</a>. 두 논문 모두 CC BY 4.0이며, 본문은 Europe PMC 전문 XML에서 표·그림·캡션·참고문헌을 빼고 옮겼습니다.</p>
+  <p>입력은 명세서 v1.3의 문장 ID·순서·문단을 그대로 썼고 문장을 다시 나누지 않았습니다. 명사(the extracts 등)는 품사로, to부정사·형용사적 분사·전치사적 용법 등은 구문 규칙으로 후보에서 뺐고, 뺀 표현은 분석 결과 파일에 사유와 함께 남겼습니다. 역할과 귀속(현재 연구/선행연구/불명)은 따로 기록합니다. 역할(role)은 이 도구의 분류이며 Hyland(2001)의 과정·평가 분류 자체가 아닙니다. 원문으로 돌아가기는 재구성한 본문 안에서의 이동이며 PDF 쪽수 연결이 아닙니다.</p>
+</div></footer>
+<script>
+const DATA=__DATA__;
+const SRC={local_rules:'로컬 규칙',api:'API',annotation_reuse:'초안 주석 재사용'};
+const ROLE={prior:'선행연구 보고',result:'자기 결과 제시',interpret:'해석·주장',method:'연구 수행·방법',ref:'그림·표·본문 지시',uncertain:'역할 검토 필요'};
+const ORDER=['prior','result','interpret','method','ref','uncertain'];
+const TYPE={ABS:'초록',INT:'서론',MET:'방법',RD:'결과·논의',CON:'결론'};
+const AG=['선행연구','필자','자료·측정','연구 대상(물질·시료)','그림·표','앞 내용 지시','수동(행위자 생략)','기타','불명'];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const RM=()=>matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth';
+function textHTML(x,active){
+  let o='',cur=0;
+  for(const h of x.hits){ if(!active.has(h.role)||h.start<cur)continue;
+    o+=esc(x.x.slice(cur,h.start))+`<mark class="${h.role}" title="${esc(ROLE[h.role]+' · 주어: '+h.agent)}">${esc(x.x.slice(h.start,h.end))}</mark>`; cur=h.end; }
+  o+=esc(x.x.slice(cur));
+  return o.replace(/\[(\d[\d,\s–−-]*)\]/g,'<span class="c">[$1]</span>');
+}
+function bands(s){const b=[];let cur=null,st=0;s.forEach((x,i)=>{if(x.t!==cur){if(cur)b.push([cur,st,i]);cur=x.t;st=i}});b.push([cur,st,s.length]);return b}
+
+function paperView(D,el){
+  const st={active:new Set(ORDER),win:10,bin:0,si:0,range:'2'};
+  const cnt=r=>D.s.reduce((n,x)=>n+x.hits.filter(h=>h.role===r).length,0);
+  const total=D.s.reduce((n,x)=>n+x.hits.length,0);
+  el.innerHTML=`
+  <div class="ph"><div><h2>${esc(D.meta.title)}</h2>
+    <p class="src">${esc(D.meta.authors)} (${D.meta.year}), <i>${D.meta.journal}</i> ${D.meta.vol}, <a href="https://doi.org/${D.meta.doi}">doi:${D.meta.doi}</a></p>
+    <p>${esc(D.meta.ko)}. 절 순서는 ${D.meta.order}입니다.</p></div>
+    <div class="nums"><div><b>${D.s.length}</b><span>문장</span></div><div><b>${D.s.filter(x=>x.c).length}</b><span>인용 문장</span></div><div><b>${total}</b><span>표시한 동사</span></div><div><b>${cnt('prior')}</b><span>선행연구 보고</span></div></div></div>
+  <div class="panel"><h3>논문의 흐름</h3><p class="hint">문장 순서를 구간으로 나누어 역할별 동사 수를 그렸습니다. 아래 띠는 절의 위치입니다. 점을 누르면 그 구간의 문장이 열립니다.</p>
+    <div class="roles">${ORDER.map(r=>`<label><input type="checkbox" data-role="${r}" checked><i style="background:var(--l-${r})"></i>${ROLE[r]}<em>${cnt(r)}</em></label>`).join('')}</div>
+    <div class="ctrl"><label>구간 크기 <select data-win><option value="5">5문장</option><option value="10" selected>10문장</option><option value="20">20문장</option></select></label><span data-binlabel></span></div>
+    <div class="chart" data-chart></div></div>
+  <div class="twocol">
+    <div class="panel"><h3>선택한 구간의 문장</h3><p class="hint">문장을 누르면 오른쪽에 원래 문맥이 열립니다.</p><div data-binlist></div></div>
+    <div class="panel ctx"><h3>원래 문맥</h3>
+      <div class="ctrl"><span class="seg" role="group" aria-label="문맥 범위"><button data-range="2" aria-pressed="true">앞뒤 2문장</button><button data-range="p" aria-pressed="false">문단 전체</button></span><button class="btn" data-goto>전체 본문에서 보기</button></div>
+      <div data-ctx aria-live="polite"></div><div class="ev" data-ev></div></div>
+  </div>
+  <div class="panel"><h3>용례 찾기</h3><p class="hint">낱말이나 표현을 입력하면 이 논문의 모든 문장에서 찾아 가운데 정렬로 보여 줍니다. 줄을 누르면 원래 문맥이 열립니다.</p>
+    <div class="kwic-in"><input data-q value="show" aria-label="찾을 표현"><button class="btn" data-search>찾기</button></div><div data-kwic></div></div>
+  <div class="panel"><h3>전체 본문</h3><p class="hint">모든 문장을 절 순서대로 보여 줍니다. 역할 선택은 색칠에만 영향을 줍니다.</p>
+    <div class="ctrl"><label>절로 가기 <select data-sec></select></label></div><div class="reader" data-reader></div></div>`;
+  const $=s=>el.querySelector(s);
+  function bins(){const a=[],w=st.win;for(let i=0;i<D.s.length;i+=w){const b={a:i,b:Math.min(i+w,D.s.length),v:{}};ORDER.forEach(r=>b.v[r]=0);D.s.slice(b.a,b.b).forEach(x=>x.hits.forEach(h=>b.v[h.role]++));a.push(b)}return a}
+  function chart(){
+    const bs=bins(); st.bin=Math.min(st.bin,bs.length-1);
+    const W=1000,H=260,L=34,R=10,T=12,B=46, keys=ORDER.filter(r=>st.active.has(r));
+    const max=Math.max(2,...bs.flatMap(b=>keys.map(k=>b.v[k]))); const n=D.s.length;
+    const X=i=>L+(i===undefined?0:i)*(W-L-R)/n, xm=b=>X((b.a+b.b)/2), Y=v=>T+(1-v/max)*(H-T-B);
+    let g=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${D.meta.short}의 역할별 동사 흐름">`;
+    const sb=bs[st.bin]; g+=`<rect x="${X(sb.a)}" y="${T}" width="${X(sb.b)-X(sb.a)}" height="${H-T-B}" fill="var(--faint)"/>`;
+    bs.forEach((b,i)=>g+=`<rect class="pt" data-bin="${i}" x="${X(b.a)}" y="${T}" width="${X(b.b)-X(b.a)}" height="${H-T-B}" fill="transparent" aria-hidden="true"/>`);
+    for(let i=0;i<=4;i++){const v=Math.round(max*i/4);g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)" stroke-width="1"/><text x="${L-6}" y="${Y(v)+4}" font-size="11" text-anchor="end" fill="var(--muted)">${v}</text>`}
+    bands(D.s).forEach(([t,a,b],k)=>{g+=`<rect x="${X(a)}" y="${H-B+8}" width="${X(b)-X(a)}" height="8" fill="${k%2?'var(--muted)':'var(--rule)'}"/>`; if(X(b)-X(a)>44)g+=`<text x="${X(a)+2}" y="${H-B+30}" font-size="12" fill="var(--muted)">${TYPE[t]}</text>`});
+    keys.forEach(k=>{g+=`<polyline points="${bs.map(b=>xm(b)+','+Y(b.v[k])).join(' ')}" fill="none" stroke="var(--l-${k})" stroke-width="2" stroke-linejoin="round"${k==='uncertain'?' stroke-dasharray="5 4"':''}/>`;
+      bs.forEach((b,i)=>g+=`<circle class="pt" data-bin="${i}" cx="${xm(b)}" cy="${Y(b.v[k])}" r="${i===st.bin?5.5:3.5}" fill="var(--l-${k})" stroke="var(--sheet)" stroke-width="1.5" tabindex="0" role="button" aria-label="${b.a+1}–${b.b}번째 문장, ${ROLE[k]} ${b.v[k]}개"><title>${b.a+1}–${b.b}번째 문장 · ${ROLE[k]} ${b.v[k]}개</title></circle>`)});
+    g+='</svg>'; $('[data-chart]').innerHTML=g;
+    $('[data-binlabel]').textContent=`선택: ${sb.a+1}–${sb.b}번째 문장 (${D.s[sb.a].id} ~ ${D.s[sb.b-1].id})`;
+    $('[data-chart]').querySelectorAll('[data-bin]').forEach(c=>{const f=()=>{st.bin=+c.dataset.bin;st.si=bins()[st.bin].a;chart();binlist();ctx()};c.onclick=f;c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f()}}});
+  }
+  function sentRow(x,i,extra=''){return `<div class="sent ${extra}" data-si="${i}" tabindex="0" role="button"><div class="sid">${x.id}</div><div class="txt">${textHTML(x,st.active)}${x.u?' <span class="pill" style="background:var(--r-ref)">미분석</span>':''}</div></div>`}
+  function wireRows(box){box.querySelectorAll('[data-si]').forEach(r=>{const f=()=>{st.si=+r.dataset.si;binlist();ctx()};r.onclick=f;r.onkeydown=e=>{if(e.key==='Enter'){f()}}})}
+  function binlist(){const b=bins()[st.bin];$('[data-binlist]').innerHTML=D.s.slice(b.a,b.b).map((x,j)=>sentRow(x,b.a+j,b.a+j===st.si?'sel':'')).join('');wireRows($('[data-binlist]'))}
+  function ctx(){
+    const x=D.s[st.si]; const rows=D.s.map((z,i)=>({z,i})).filter(({z,i})=>st.range==='p'?z.p===x.p:Math.abs(i-st.si)<=2);
+    $('[data-ctx]').innerHTML=`<p class="hint">${x.id} · ${TYPE[x.t]} · ${esc(x.st.split(' > ').pop())} · 문단 ${x.p}</p>`+rows.map(({z,i})=>`<div class="sent ${i===st.si?'focus':''}"><div class="sid">${z.id}</div><div class="txt">${textHTML(z,st.active)}</div></div>`).join('');
+    $('[data-ev]').innerHTML=x.hits.length?`<table><thead><tr><th>표현</th><th>역할</th><th>귀속</th><th>주어</th><th>근거</th></tr></thead><tbody>${x.hits.map(h=>`<tr><td><code>${esc(h.text)}</code></td><td><span class="pill" style="background:var(--r-${h.role})">${ROLE[h.role]}</span></td><td>${esc(h.attr||'')}</td><td>${esc(h.agent)}${h.at?`<br><span class="hint">${esc(h.at)}</span>`:''}</td><td>${esc(SRC[h.source]||h.source)}${h.n?`<br><span class="hint">${esc(h.n)}</span>`:''}</td></tr>`).join('')}</tbody></table>`:'<p class="hint">이 문장에서는 탐지 목록의 동사를 찾지 못했습니다. 동사가 없다는 뜻은 아닙니다.</p>';
+  }
+  function reader(){let prev='',secs=[];$('[data-reader]').innerHTML=D.s.map((x,i)=>{let h='';if(x.l!==prev){h=`<h4 id="${D.id}-sec-${x.l}">${x.l==='0'?'초록':x.l+'. '+esc(x.st.split(' > ').pop())}</h4>`;secs.push(x);prev=x.l}return h+`<div class="sent" id="${D.id}-full-${i}" data-si="${i}" tabindex="0" role="button"><div class="sid">${x.id}</div><div class="txt">${textHTML(x,st.active)}${x.f?' <span class="pill" style="background:var(--r-uncertain)">분석 실패</span>':''}${x.u?' <span class="pill" style="background:var(--r-ref)">미분석</span>':''}</div></div>`}).join('');
+    $('[data-sec]').innerHTML=secs.map(x=>`<option value="${x.l}">${x.l==='0'?'초록':x.l+'. '+esc(x.st.split(' > ').pop())}</option>`).join('');
+    $('[data-reader]').querySelectorAll('[data-si]').forEach(r=>r.onclick=()=>{st.si=+r.dataset.si;st.bin=Math.floor(st.si/st.win);chart();binlist();ctx();$('.ctx').scrollIntoView({behavior:RM(),block:'start'})});}
+  function search(){const q=$('[data-q]').value.trim().toLowerCase();if(!q){$('[data-kwic]').innerHTML='<p class="hint">찾을 표현을 입력하세요.</p>';return}
+    let n=0,out=[];D.s.forEach((x,i)=>{const lo=x.x.toLowerCase();let p=0;while((p=lo.indexOf(q,p))>=0){n++;if(out.length<200)out.push(`<div class="kwic-row" data-si="${i}" tabindex="0" role="button"><span class="sid">${x.id}</span><span class="l"><span>${esc(x.x.slice(Math.max(0,p-70),p))}</span></span><span class="k">${esc(x.x.slice(p,p+q.length))}</span><span class="r">${esc(x.x.slice(p+q.length,p+q.length+70))}</span></div>`);p+=q.length}});
+    $('[data-kwic]').innerHTML=`<p class="hint">${n}개 용례${n>200?', 앞 200개만 보여 줍니다':''}</p>`+out.join('');
+    $('[data-kwic]').querySelectorAll('[data-si]').forEach(r=>{const f=()=>{st.si=+r.dataset.si;st.bin=Math.floor(st.si/st.win);chart();binlist();ctx();$('.ctx').scrollIntoView({behavior:RM(),block:'start'})};r.onclick=f;r.onkeydown=e=>{if(e.key==='Enter')f()}})}
+  el.querySelectorAll('[data-role]').forEach(c=>c.onchange=()=>{c.checked?st.active.add(c.dataset.role):st.active.delete(c.dataset.role);chart();binlist();ctx();reader()});
+  $('[data-win]').onchange=e=>{st.win=+e.target.value;st.bin=Math.floor(st.si/st.win);chart();binlist()};
+  el.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{st.range=b.dataset.range;el.querySelectorAll('[data-range]').forEach(x=>x.setAttribute('aria-pressed',x===b));ctx()});
+  $('[data-goto]').onclick=()=>{const r=document.getElementById(`${D.id}-full-${st.si}`);const box=$('[data-reader]');box.scrollTop=r.offsetTop-box.offsetTop-40;r.scrollIntoView({behavior:RM(),block:'center'});r.classList.remove('flash');void r.offsetWidth;r.classList.add('flash')};
+  $('[data-sec]').onchange=e=>{const h=document.getElementById(`${D.id}-sec-${e.target.value}`);const box=$('[data-reader]');box.scrollTop=h.offsetTop-box.offsetTop};
+  $('[data-search]').onclick=search; $('[data-q]').onkeydown=e=>{if(e.key==='Enter')search()};
+  chart();binlist();ctx();reader();search();
+}
+
+function compareView(el){
+  const [A,B]=DATA; const st={role:'all',metric:'per1k',noAbs:true};
+  const roleOK=h=>st.role==='all'?true:h.role===st.role;
+  function draw(){
+    const N=20,W=1000,H=250,L=40,R=10,T=12,BM=60;
+    const series=D=>{const s=D.s,n=s.length,a=[];for(let k=0;k<N;k++){const lo=Math.floor(k*n/N),hi=Math.floor((k+1)*n/N);const ss=s.slice(lo,hi);const c=ss.reduce((m,x)=>m+x.hits.filter(roleOK).length,0),w=ss.reduce((m,x)=>m+x.w,0);a.push({lo,hi,v:st.metric==='per1k'?(w?c/w*1000:0):c})}return a};
+    const sa=series(A),sb=series(B),max=Math.max(1,...sa.map(p=>p.v),...sb.map(p=>p.v));
+    const X=k=>L+(k+0.5)*(W-L-R)/N,Y=v=>T+(1-v/max)*(H-T-BM);
+    let g=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="두 논문의 흐름 비교">`;
+    for(let i=0;i<=4;i++){const v=max*i/4;g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)"/><text x="${L-6}" y="${Y(v)+4}" font-size="11" text-anchor="end" fill="var(--muted)">${st.metric==='per1k'?v.toFixed(0):Math.round(v)}</text>`}
+    [[A,'var(--a)',H-BM+8],[B,'var(--b)',H-BM+30]].forEach(([D,col,y])=>{const n=D.s.length;bands(D.s).forEach(([t,a,b])=>{const x0=L+a/n*(W-L-R),x1=L+b/n*(W-L-R);g+=`<rect x="${x0}" y="${y}" width="${x1-x0-1}" height="7" fill="${col}" opacity="${t==='RD'?0.85:t==='MET'?0.5:t==='INT'?0.3:0.15}"/>`;if(x1-x0>50)g+=`<text x="${x0+2}" y="${y+19}" font-size="11" fill="var(--muted)">${TYPE[t]}</text>`})});
+    [[sa,A,'var(--a)'],[sb,B,'var(--b)']].forEach(([s,D,col])=>{g+=`<polyline points="${s.map((p,k)=>X(k)+','+Y(p.v)).join(' ')}" fill="none" stroke="${col}" stroke-width="2.2"/>`;s.forEach((p,k)=>g+=`<circle class="pt" data-doc="${D.id}" data-si="${p.lo}" cx="${X(k)}" cy="${Y(p.v)}" r="3.5" fill="${col}" tabindex="0" role="button"><title>${D.meta.short} ${k*5}–${k*5+5}% 위치 · ${st.metric==='per1k'?p.v.toFixed(1)+' (1,000단어당)':p.v+'개'}</title></circle>`)});
+    g+='</svg>';
+    const types=['ABS','INT','MET','RD','CON'].filter(t=>!(st.noAbs&&t==='ABS'));
+    const agg=(D,t,r)=>{const s=D.s.filter(x=>x.t===t);const c=s.reduce((m,x)=>m+x.hits.filter(h=>r==='all'||h.role===r).length,0),w=s.reduce((m,x)=>m+x.w,0);return{c,w}};
+    const fmt=({c,w})=>st.metric==='per1k'?(w?(c/w*1000).toFixed(1):'–'):c;
+    const agents=D=>{const m={};D.s.forEach(x=>x.hits.filter(roleOK).forEach(h=>{if(!(st.noAbs&&x.t==='ABS'))m[h.agent]=(m[h.agent]||0)+1}));return m};
+    const ga=agents(A),gb=agents(B),tA=Object.values(ga).reduce((a,b)=>a+b,0)||1,tB=Object.values(gb).reduce((a,b)=>a+b,0)||1;
+    el.innerHTML=`
+    <div class="panel"><h3>두 논문의 흐름</h3><p class="hint">두 논문의 길이를 처음 0%부터 끝 100%까지 같은 폭으로 맞추고 20구간으로 나누었습니다. 아래 두 띠가 각 논문의 절 위치이고, 짙을수록 결과·논의에 가깝습니다. 점을 누르면 그 위치의 문맥이 열립니다.</p>
+      <div class="ctrl"><label>역할 <select data-role-sel><option value="all">모든 역할</option>${ORDER.map(r=>`<option value="${r}" ${st.role===r?'selected':''}>${ROLE[r]}</option>`).join('')}</select></label>
+      <span class="seg" role="group" aria-label="지표"><button data-metric="per1k" aria-pressed="${st.metric==='per1k'}">1,000단어당</button><button data-metric="count" aria-pressed="${st.metric==='count'}">개수</button></span>
+      <span class="seg" role="group" aria-label="초록"><button data-abs="1" aria-pressed="${st.noAbs}">초록 제외</button><button data-abs="0" aria-pressed="${!st.noAbs}">초록 포함</button></span>
+      <span><span class="sw" style="background:var(--a)"></span>논문 A <span class="sw" style="background:var(--b);margin-left:10px"></span>논문 B</span></div>
+      <div class="chart">${g}</div></div>
+    <div class="panel"><h3>절 유형별 비교</h3><p class="hint">원문의 절 순서는 다르지만 같은 유형끼리 맞대었습니다. 수치는 위에서 고른 역할과 지표를 따릅니다.</p>
+      <div class="scroll"><table class="cmp"><thead><tr><th>역할</th>${types.map(t=>`<th colspan="2">${TYPE[t]}</th>`).join('')}</tr><tr><th></th>${types.map(()=>'<th>A</th><th>B</th>').join('')}</tr></thead><tbody>
+      ${['all',...ORDER].map(r=>`<tr><td>${r==='all'?'모든 역할':ROLE[r]}</td>${types.map(t=>`<td class="a">${fmt(agg(A,t,r))}</td><td class="b">${fmt(agg(B,t,r))}</td>`).join('')}</tr>`).join('')}
+      </tbody></table></div></div>
+    <div class="panel"><h3>누가 말하는가: 동사의 주어</h3><p class="hint">고른 역할의 동사에서 주어(행위자)가 무엇인지 비율로 보여 줍니다. 구문분석으로 붙인 후보 값입니다.</p>
+      <div class="agents">${[[A,ga,tA,'var(--a)'],[B,gb,tB,'var(--b)']].map(([D,m,t,col])=>`<div><p style="font-weight:600;color:${col};margin-bottom:6px">${D.meta.short}</p>${AG.filter(a=>m[a]).map(a=>`<div class="row"><span style="text-align:left;font-family:var(--sans);color:var(--ink)">${a}</span><i style="width:${m[a]/t*100}%;background:${col}"></i><span>${Math.round(m[a]/t*100)}%</span></div>`).join('')}</div>`).join('')}</div></div>
+    <div class="panel notes"><h3>이렇게 읽어 주세요</h3><ul>
+      <li>모든 역할과 주어는 분석 엔진의 후보입니다. 어느 것도 사람이 확인한 정답이 아닙니다.</li>
+      <li>두 논문의 차이는 관찰한 것이며, 절 구조나 저널 형식 때문이라고 해석하지 않습니다.</li>
+      <li>두 논문을 서로 다른 엔진이나 모드로 분석했다면 수치를 직접 비교하지 마세요(맨 위 실행 정보 참고).</li>
+      <li>"역할 검토 필요"는 인용이 있는 문장에서 선행연구 보고인지 자기 연구 서술인지 갈리지 않은 동사입니다.</li>
+    </ul></div>`;
+    el.querySelector('[data-role-sel]').onchange=e=>{st.role=e.target.value;draw()};
+    el.querySelectorAll('[data-metric]').forEach(b=>b.onclick=()=>{st.metric=b.dataset.metric;draw()});
+    el.querySelectorAll('[data-abs]').forEach(b=>b.onclick=()=>{st.noAbs=b.dataset.abs==='1';draw()});
+    el.querySelectorAll('circle[data-doc]').forEach(c=>{const f=()=>openAt(c.dataset.doc,+c.dataset.si);c.onclick=f;c.onkeydown=e=>{if(e.key==='Enter')f()}});
+  }
+  draw();
+}
+const VIEWS={};
+function openAt(doc,si){const v=doc==='paper_a'?'a':'b';show(v);const el=document.getElementById('v-'+v);const row=el.querySelector(`#${doc}-full-${si}`);if(row){row.click();}}
+function show(v){document.querySelectorAll('nav.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));document.querySelectorAll('.view').forEach(s=>s.hidden=s.id!=='v-'+v);try{localStorage.setItem('rv-tab',v)}catch(e){}}
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{show(b.dataset.v);scrollTo({top:0})});
+document.getElementById('runinfo').textContent=DATA.map(D=>`${D.meta.short}: ${D.run.engine==='local'?'로컬 규칙 엔진(spaCy, 외부 API 없음)':'API 엔진('+(D.run.model||'')+')'}${D.run.use_annotations?' · 초안 주석 재사용 모드':''} · 실행 ${D.run.run_id} · 입력 판본 ${D.run.document_version}${D.run.partial?' · 부분 실행: '+D.run.analyzed+'/'+D.run.total+'문장만 분석(나머지는 미분석)':''}${D.run.failed?' · 분석 실패 '+D.run.failed+'문장':''}`).join(' / ');
+paperView(DATA[0],document.getElementById('v-a'));
+if(DATA.length>1){paperView(DATA[1],document.getElementById('v-b'));compareView(document.getElementById('v-c'));}
+else{document.getElementById('t-b').hidden=true;document.getElementById('t-c').hidden=true;}
+try{const t=localStorage.getItem('rv-tab');if(t&&(DATA.length>1||t==='a'))show(t)}catch(e){}
+</script>
+</body>
+</html>
