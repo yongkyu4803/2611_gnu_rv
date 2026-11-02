@@ -41,6 +41,7 @@ uvicorn server.main:app --reload
 - `GET /runs`, `GET /runs/{doc}/{run_id}`, `GET /runs/{doc}/{run_id}/agreement`, `GET /viewer?paper_a=&paper_b=`
 - **클라이언트 화면** `http://localhost:8000/app`: 노트북이 만드는 화면(`viewer_template.html`)과 같은 화면을 서버 자료로 엽니다. 실행 ID를 주지 않으면 두 논문의 가장 최근 전체 실행을 보여 주고, `?paper_a=<실행ID>&paper_b=<실행ID>`로 고를 수 있습니다. 저장된 실행이 없으면 화면에서 바로 로컬 분석을 실행할 수 있습니다. 화면 자료는 `GET /viewer-data`(JSON)로 받습니다.
 - 결과 폴더는 기본 `rv_runs/`이며 `RV_RUN_ROOT`로 바꿀 수 있습니다. 인증이 없으니 내 컴퓨터에서만 쓰세요.
+- **Render 공개 배포**(`render.yaml`): 빌드 때 `scripts/build_runs.py`가 두 논문을 로컬 엔진으로 분석해 두고, 서버는 `RV_READONLY=1`(읽기 전용)으로 돌아 `POST /runs/local`을 막습니다. 무료 플랜이라 한동안 접속이 없으면 잠들었다가 첫 접속 때 깨어나는 데 시간이 걸립니다.
 
 ## 결과가 저장되는 방식
 - `rv_runs/<document_id>/<run_id>/`에 실행마다 새 폴더가 생깁니다. 같은 이름이 있으면 멈추고 덮어쓰지 않습니다.

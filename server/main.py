@@ -22,6 +22,8 @@ from server.client import client_html   # noqa: E402
 DOC_VERSION = os.environ.get("RV_DOC_VERSION", "preproc-v1.2-xml-20261015")
 RUN_ROOT = os.environ.get("RV_RUN_ROOT", os.path.join(ROOT, "rv_runs"))
 DOC_IDS = ("paper_a", "paper_b")
+READONLY = os.environ.get("RV_READONLY") == "1"   # 공개 배포용: 새 실행 저장을 막는다(결과는 배포 때 미리 만든다)
+MAX_SENTENCE_CHARS = 2000
 
 app = FastAPI(title="보고동사로 다시 읽기", version=rv.TOOL_VERSION)
 
@@ -48,7 +50,7 @@ class SentenceRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return dict(status="ok", tool_version=rv.TOOL_VERSION, rule_version=L.RULE_VERSION)
+    return dict(status="ok", tool_version=rv.TOOL_VERSION, rule_version=L.RULE_VERSION, readonly=READONLY)
 
 
 @app.get("/documents")
@@ -66,6 +68,8 @@ def analyze_sentence(req: SentenceRequest):
     """임의의 영어 문장 하나를 로컬 규칙으로 분석한다(저장하지 않음)."""
     if not req.text.strip():
         raise HTTPException(422, "빈 문장입니다")
+    if len(req.text) > MAX_SENTENCE_CHARS:
+        raise HTTPException(422, f"문장이 너무 깁니다({MAX_SENTENCE_CHARS}자 이하)")
     s = rv.Sentence("0-001", 1, req.text, "", "", "", "", 1, len(req.text.split()))
     core, hits, excluded = L.analyze_sentence("adhoc", s, "en_core_web_sm")
     return dict(core=core, hits=hits, excluded=excluded)
@@ -74,6 +78,8 @@ def analyze_sentence(req: SentenceRequest):
 @app.post("/runs/local", status_code=201)
 def run_local(req: LocalRunRequest):
     """로컬 엔진으로 분석하고, 검증을 통과할 때만 새 실행 폴더에 저장한다."""
+    if READONLY:
+        raise HTTPException(403, "이 서버는 읽기 전용입니다. 분석 결과는 배포할 때 미리 만들어 두었습니다.")
     doc = get_doc(req.document_id)
     try:
         core, whole, excl, fields = L.analyze(doc, sentence_ids=req.sentence_ids, use_annotations=req.use_annotations)

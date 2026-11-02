@@ -1,0 +1,16 @@
+# Render 배포 설정(읽기 전용 공개 화면). 분석 결과는 빌드 때 만들고, 서버에서는 새 실행 저장을 막는다.
+services:
+  - type: web
+    name: rv-reporting-verbs
+    runtime: python
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: pip install -r requirements.txt && python scripts/build_runs.py
+    startCommand: uvicorn server.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.3
+      - key: RV_READONLY
+        value: "1"
